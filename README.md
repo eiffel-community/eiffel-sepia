@@ -20,7 +20,7 @@
 # Eiffel Sepia
 This repository contains the Sepia Eiffel Protocol Implementation Architecture. It forms part of the larger [Eiffel Community](https://eiffel-community.github.io), where it provides guidance both to contributors and users of the Eiffel protocol and its implementations. While there is an infinite number of possible solutions to the problem of implementing the Eiffel protocol, Sepia represents one such solution, recommended and supported by the community.
 
-To view Sepia, head over to the GitHub pages at (https://eiffel-community.github.io/eiffel-sepia).
+To view Sepia, head over to the GitHub pages at https://eiffel-community.github.io/eiffel-sepia.
 
 # About this repository
 The contents of this repository are licensed under the [Apache License 2.0](./LICENSE).
