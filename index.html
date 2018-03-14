@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Eiffel Sepia</title>
+    <title>Sepia Eiffel Protocol Implementation Architecture</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
@@ -11,30 +11,143 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-     <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
-     <g display="inline">
-      <title>Background</title>
-      <rect id="svg_4" stroke-opacity="0" height="450" width="700" y="700" x="800" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#f2e9ed"/>
-      <rect stroke-opacity="0" id="svg_3" height="450" width="700" y="700" x="100" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#e9eef2"/>
-      <rect fill-opacity="0" id="svg_1" height="450" width="1400" y="700" x="100" stroke="#000000" fill="#000000"/>
-      <text transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_5" y="821.273179" x="177.632142" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Event Services</text>
-      <rect id="svg_6" fill-opacity="0" height="650" width="1400" y="50" x="100" stroke="#000000" fill="#000000"/>
-      <text id="svg_7" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="405.122065" x="179.568914" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Pipeline Actors</text>
-      <text transform="matrix(10.8858, 0, 0, 5.64287, -5487.64, -2046.74)" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_8" y="435.555571" x="568.888885" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
-      <text id="svg_10" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="743.851209" x="219.723645" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#e2e2e2">Command</text>
-      <text id="svg_11" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="743.851234" x="481.265444" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#e2e2e2">Query</text>
-      <a xlink:href="./descriptions/rabbitmq.md" id="svg_16"/>
-     </g>
-     <g display="inline">
-      <title>Items</title>
-      <a xlink:href="./descriptions/rabbitmq-message-broker.md" id="svg_18">
-       <g id="svg_17">
-        <rect fill-opacity="0" id="svg_12" height="30" width="1300" y="1050.000038" x="150.000004" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#000000"/>
-        <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_14" y="1073.888923" x="798.518493" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">RabbitMQ Message Broker</text>
-       </g>
-      </a>
-     </g>
-    </svg>
+    <header class="header">
+      <div class="container bg-shade">
+        <a class="header-logo no-underline-hover" href="/">
+          <img src="images/header-logo.png" class="header-logo-image"/>
+        </a>
+
+        <nav class="header-nav">
+          <a class="header-footer-nav-link extra-hover-underline" href="https://eiffel-community.github.io">Eiffel Community</a>
+          <a class="header-footer-nav-link extra-hover-underline" href="https://github.com/Ericsson/eiffel">Protocol</a>
+          <a class="header-footer-nav-link no-underline-hover" href="https://github.com/eiffel-community/eiffel-sepia">
+            <img src="images/github-organization-icon.png" class="header-nav-link-image"/>
+          </a>
+          <a class="header-footer-nav-link no-underline-hover" href="https://groups.google.com/forum/#!forum/eiffel-community">
+            <img src="images/google-group-icon.png" class="header-nav-link-image"/>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <image src="images/splash.png" class="splash-image" />
+        <p class="splash-text-large">Eiffel</p>
+        <p class="splash-text-small">
+          Get your integration mess under control.<br />
+          Build an event driven self-documenting pipeline today.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="container bg-shade">
+        <h1 class="section-heading">Untangling the network of pipelines</h1>
+        <p class="section-paragraph">Modern software production systems are more than just a build server. It is a shifting mix of functions and technologies, frmo issue trackers and test frameworks to environment managers and repositories. At the same time, software supply chains become increasingly complex, crossing organizational and geographical borders many times before resulting in the final software product. It is a world of interconnected and interdependent software pipelines.</p>
+        <p class="section-paragraph">The Eiffel community applies the same architectural principles to this network of pipelines as to any other software design problem. The first part of this is the Eiffel protocol, enabling technology agnostic event-based communication among the actors of the system. The second part is the implementation of services and plugins for sending, storing, analyzing and acting upon those event communications.</p>
+        <p class="section-paragraph">The Eiffel protocol and its implementaions lets you know at a glance what is up in your software production system and your supply chain, while providing rich extension points where others can hook into your pipeline with perfect upstream and downstream traceability.
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h1 class="section-heading">Nimble yet designed for heavy duty</h1>
+        <p class="section-paragraph">The Eiffel protocol saw the light of day in 2012 as a protocol for large-scale software integration within Ericsson. In 2016 Ericsson made the initial contribution of the protocol to open source, and has since then been collaborating with the community to create open source implementations of it. Coming from the world of large telecommunications systems it was designed for scalability and high demands on traceability. At the same time, the design of the protocol and its implementations ensures that you can cherry-pick the parts that are relevant to you. This affords an easy-to-adopt yet highly flexible and scalable solution that will grow along with your needs.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container bg-shade">
+        <h1 class="section-heading">Getting started</h1>
+        <p class="section-paragraph">To get into the concepts of the Eiffel protocol, subscribe to our <a href="https://www.youtube.com/channel/UC3Zx84ecQ1jyGSc9709xrZg">Youtube channel</a> and watch the screen casts on what the Eiffel protocol is, and how it achieves its mission. If you're looking for examples of how to use it, try the Usage Examples provided in the <a href="https://github.com/Ericsson/eiffel">protocol repository</a>. If you want to try it out yourself in a sandbox environment, try building and running the sandbox Docker image (to be added soon).</p>
+        <p class="section-paragraph">Keep in mind that Eiffel is designed to let you cherry-pick the parts that add value for you, while ignoring the rest. This goes for the protocol as well as for its implementations. Browse the <a href="https://github.com/Ericsson/eiffel">protocol vocabulary</a> and the <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia implementation architecture</a> to find what supports your critical use case, and then expand from there.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h1 class="section-heading">Getting involved</h1>
+        <p class="section-paragraph">Contributions are more than welcome in the Eiffel community, both to the protocol itself and to its implementations. A good starting point for contributing to the protocol itself is <a href="https://github.com/Ericsson/eiffel/issues">its list of open issues</a>: find an unaddressed one, or create a new one! To get involved on the implementation side, start by visiting the <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia implementation architecture</a> to find implementations you think are missing, or existing implementations you can contribute to. Every repository in the Eiffel community maintains an issue list, accepts pull requests and features a maintainers' mailing list (linked from each respository README).</p>
+      </div>
+    </section>
+    <section>
+      <div class="container bg-shade">
+        <h1 class="section-heading">The fundamentals</h1>
+        <section>
+          <a href="https://github.com/Ericsson/eiffel"><img src="images/eiffel-protocol-logo.png" class="section-paragraph-image" /></a>
+          <p class="section-paragraph right-of-image">
+            The Eiffel protocol is the foundation of everything else within the Eiffel community. It affords actors within the software production system an agreed and unambiguous vocabulary and syntax to communicate with one another.<br/>
+            Repository: <a href="https://github.com/Ericsson/eiffel">eiffel</a><br>
+            Status: Mature.<br/>
+          </p>
+        </section>
+        <section>
+          <a href="https://github.com/eiffel-community/eiffel-sepia"><img src="images/eiffel-sepia-logo.png" class="section-paragraph-image" /></a>
+          <p class="section-paragraph right-of-image">
+            The Sepia Eiffel Protocol Implementation Architecture is one level down from the Eiffel protocol in terms of abstraction. Because the protocol makes no assumptions with regards to implementation and technology choices, creating a software production system utilizing the Eiffel protocol is a design problem with infinite solutions. Sepia narrows that solution space by identifying types of actors, reference implementations, interface specifications as well as data and Eiffel event type ownership. To get an overview of how actors may collaborate in practice using Eiffel and the concrete implementations available, Sepia is a good place to start.<br/>
+            Repository: <a href="https://github.com/eiffel-community/eiffel-sepia">eiffel-sepia</a><br>
+            Status: In progress.<br/>
+          </p>
+        </section>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h1 class="section-heading">The meat</h1>
+        <section>
+          <a href="https://github.com/Ericsson/eiffel-intelligence"><img src="images/eiffel-intelligence-logo.png" class="section-paragraph-image" /></a>
+          <p class="section-paragraph right-of-image">
+            Eiffel events are small and atomic, but non-trivial use cases require more information than what can be gained from a single one. Eiffel Intelligence aggregates events over time into rich data objects, representing everything that is known to date about a given type of entity: release candidates, test cases, source revisions, developers and so on. Through its subscription interface clients can sign up for alerts whenever a certain state has been achieved, providing a powerful yet easy to use mechanism for acting upon data gathered from the software production system.<br/>
+            Repository: <a href="https://github.com/Ericsson/eiffel-intelligence">eiffel-intelligence</a><br>
+            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
+            Status: Functional, but not mature.<br/>
+          </p>
+        </section>
+        <section>
+          <a href="https://github.com/Ericsson/eiffel-remrem"><img src="images/eiffel-remrem-logo.png" class="section-paragraph-image" /></a>
+          <p class="section-paragraph right-of-image">
+            Remrem acts as a REST based mailbox towards an Eiffel message bus. It provides an abstraction that allows its clients to send messages without first integrating with a particular messaging technology, and takes care of most of the heavy lifting involved in authoring and publishing event messages.<br/>
+            Repository: <a href="https://github.com/Ericsson/eiffel-remrem">eiffel-remrem</a><br>
+            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
+            Status: In progress.<br/>
+          </p>
+        </section>
+        <section>
+          <a href="https://github.com/Ericsson/eiffel-vici"><img src="images/eiffel-vici-logo.png" class="section-paragraph-image" /></a>
+          <p class="section-paragraph right-of-image">
+            Vici dynamically visualizes Eiffel retrieved from a persistance service. This affords overview and inspection of the software production system in real time, such as it really is, across underlying technologies.
+            Repository: <a href="https://github.com/Ericsson/eiffel-vici">eiffel-vici</a><br>
+            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
+            Status: Functional, but not mature.<br/>
+          </p>
+        </section>
+      </div>
+    </section>
+    <section>
+      <div class="container bg-shade">
+        <h1 class="section-heading">The workshop</h1>
+        <p class="section-paragraph">Apart from the projects listed above, there are many ongoing experiments and studies ongoing. These are projects that welcome contributions and that may well turn into proper implementations over time, but currently leave no guarantees as to maintenance or longevity.</p>
+        <p class="section-paragraph"><a href="https://github.com/eiffel-community/eiffel-jira-plugin">The Eiffel JIRA Plugin</a> turns <a href="https://www.atlassian.com/software/jira">JIRA</a> into an Eiffel enabled actor in the software production system, able to emit events documenting the lifecycle of its tracked issues.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h1 class="section-heading">The icing</h1>
+        <p class="section-paragraph">Outside of the Eiffel Community organization there are more implementations and extensions of the Eiffel protocol.</p>
+        <p class="section-paragraph"><a href="https://github.com/Praqma/tracey-bitbucket-eiffel-rabbitmq-post-receive-hook">Praqma/tracey-bitbucket-eiffel-rabbitmq-post-receive-hook</a> is a post receive hook plugin to BitBucket to send Eiffel messages using a RabbitMQ message broker.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <a class="header-footer-nav-link extra-hover-underline" href="https://eiffel-community.github.io">Eiffel Community</a>
+          <a class="header-footer-nav-link extra-hover-underline" href="https://groups.google.com/forum/#!forum/eiffel-community">Google Group</a>
+          <a class="header-footer-nav-link extra-hover-underline" href="https://www.youtube.com/channel/UC3Zx84ecQ1jyGSc9709xrZg">Youtube Channel</a>
+          <a class="header-footer-nav-link extra-hover-underline" href="https://github.com/ericsson/eiffel/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a>
+          <a class="header-footer-nav-link extra-hover-underline" href="https://github.com/ericsson/eiffel">Protocol Repository</a>
+          <a class="header-footer-nav-link extra-hover-underline" href="https://ericsson.com">Ericsson</a>
+        </nav>
+      </div>
+      <span class="footer-right-filler">
+        &nbsp;
+      </span>
+    </footer>
   </body>
 </html>
