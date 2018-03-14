@@ -9,145 +9,134 @@
     <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link rel='stylesheet' href='css/index.css'>
     <meta name="theme-color" content="#ffffff">
+    <script src="js/csi.min.js"></script>
   </head>
   <body>
-    <header class="header">
-      <div class="container bg-shade">
-        <a class="header-logo no-underline-hover" href="/">
-          <img src="images/header-logo.png" class="header-logo-image"/>
-        </a>
+    <div data-include="includes/header.html"></div>
+    <section>
+      <div class="container">
+        <h1 class="section-heading">Sepia Eiffel Implementation Architecture</h1>
+        <p class="section-paragraph">The Sepia project forms part of the larger Eiffel Community, where it provides guidance both to contributors and users of the Eiffel protocol and its implementations. While there is an infinite number of possible solutions to the problem of implementing the Eiffel protocol, Sepia represents one such solution, recommended and supported by the community.</p>
+        <p class="section-paragraph">Below you will find an overview image of the architecture. Each item in the overview is a clickable link that will take you to its description, example implementations and API specifications.</p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <svg width="auto" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 1600 1200">
+         <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
 
-        <nav class="header-nav">
-          <a class="header-footer-nav-link extra-hover-underline" href="https://eiffel-community.github.io">Eiffel Community</a>
-          <a class="header-footer-nav-link extra-hover-underline" href="https://github.com/Ericsson/eiffel">Protocol</a>
-          <a class="header-footer-nav-link no-underline-hover" href="https://github.com/eiffel-community/eiffel-sepia">
-            <img src="images/github-organization-icon.png" class="header-nav-link-image"/>
+         <g display="inline">
+          <title>Background</title>
+          <rect fill="#e8efe8" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="101" y="450" width="1400" height="250" stroke-opacity="0" id="svg_63"/>
+          <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" fill-opacity="0" x="100" y="450" width="1400" height="250" id="svg_62"/>
+          <rect fill="#000000" stroke="#000000" x="100" y="700" width="1400" height="450" id="svg_1" fill-opacity="0"/>
+          <rect fill="#f2e9ed" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="699.999997" y="700" width="800" height="450" stroke-opacity="0" id="svg_4"/>
+          <rect fill="#e9eef2" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="100" y="700" width="600" height="450" id="svg_3" stroke-opacity="0"/>
+          <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="177.612536" y="821.273179" id="svg_5" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)">Event Services</text>
+          <rect fill="#000000" stroke="#000000" x="100" y="50" width="1400" height="400" fill-opacity="0" id="svg_6"/>
+          <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="179.558332" y="405.122065" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" id="svg_7">Pipeline Actors</text>
+          <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="568.888885" y="435.555571" id="svg_8" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(10.8858, 0, 0, 5.64287, -5487.64, -2046.74)"/>
+          <text fill="#e2e2e2" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="201.031434" y="743.851209" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" id="svg_10">Command</text>
+          <text fill="#e2e2e2" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="462.657881" y="743.851234" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" id="svg_11">Query</text>
+          <a id="svg_16" xlink:href="./descriptions/rabbitmq.md"/>
+          <text style="cursor: move;" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="190.629964" y="567.582474" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" id="svg_64">Modes of Access</text>
+         </g>
+         <g display="inline">
+          <title>Items</title>
+          <a id="svg_18" xlink:href="./descriptions/rabbitmq-message-broker.md">
+           <g id="svg_17">
+            <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="150.000004" y="1050.000038" width="1300" height="30" id="svg_12" fill-opacity="0"/>
+            <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="798.518493" y="1073.888923" id="svg_14" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">RabbitMQ Message Broker</text>
+           </g>
           </a>
-          <a class="header-footer-nav-link no-underline-hover" href="https://groups.google.com/forum/#!forum/eiffel-community">
-            <img src="images/google-group-icon.png" class="header-nav-link-image"/>
-          </a>
-        </nav>
-      </div>
-    </header>
-    <section>
-      <div class="container">
-        <image src="images/splash.png" class="splash-image" />
-        <p class="splash-text-large">Eiffel</p>
-        <p class="splash-text-small">
-          Get your integration mess under control.<br />
-          Build an event driven self-documenting pipeline today.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div class="container bg-shade">
-        <h1 class="section-heading">Untangling the network of pipelines</h1>
-        <p class="section-paragraph">Modern software production systems are more than just a build server. It is a shifting mix of functions and technologies, frmo issue trackers and test frameworks to environment managers and repositories. At the same time, software supply chains become increasingly complex, crossing organizational and geographical borders many times before resulting in the final software product. It is a world of interconnected and interdependent software pipelines.</p>
-        <p class="section-paragraph">The Eiffel community applies the same architectural principles to this network of pipelines as to any other software design problem. The first part of this is the Eiffel protocol, enabling technology agnostic event-based communication among the actors of the system. The second part is the implementation of services and plugins for sending, storing, analyzing and acting upon those event communications.</p>
-        <p class="section-paragraph">The Eiffel protocol and its implementaions lets you know at a glance what is up in your software production system and your supply chain, while providing rich extension points where others can hook into your pipeline with perfect upstream and downstream traceability.
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <h1 class="section-heading">Nimble yet designed for heavy duty</h1>
-        <p class="section-paragraph">The Eiffel protocol saw the light of day in 2012 as a protocol for large-scale software integration within Ericsson. In 2016 Ericsson made the initial contribution of the protocol to open source, and has since then been collaborating with the community to create open source implementations of it. Coming from the world of large telecommunications systems it was designed for scalability and high demands on traceability. At the same time, the design of the protocol and its implementations ensures that you can cherry-pick the parts that are relevant to you. This affords an easy-to-adopt yet highly flexible and scalable solution that will grow along with your needs.</p>
-      </div>
-    </section>
-    <section>
-      <div class="container bg-shade">
-        <h1 class="section-heading">Getting started</h1>
-        <p class="section-paragraph">To get into the concepts of the Eiffel protocol, subscribe to our <a href="https://www.youtube.com/channel/UC3Zx84ecQ1jyGSc9709xrZg">Youtube channel</a> and watch the screen casts on what the Eiffel protocol is, and how it achieves its mission. If you're looking for examples of how to use it, try the Usage Examples provided in the <a href="https://github.com/Ericsson/eiffel">protocol repository</a>. If you want to try it out yourself in a sandbox environment, try building and running the sandbox Docker image (to be added soon).</p>
-        <p class="section-paragraph">Keep in mind that Eiffel is designed to let you cherry-pick the parts that add value for you, while ignoring the rest. This goes for the protocol as well as for its implementations. Browse the <a href="https://github.com/Ericsson/eiffel">protocol vocabulary</a> and the <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia implementation architecture</a> to find what supports your critical use case, and then expand from there.</p>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <h1 class="section-heading">Getting involved</h1>
-        <p class="section-paragraph">Contributions are more than welcome in the Eiffel community, both to the protocol itself and to its implementations. A good starting point for contributing to the protocol itself is <a href="https://github.com/Ericsson/eiffel/issues">its list of open issues</a>: find an unaddressed one, or create a new one! To get involved on the implementation side, start by visiting the <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia implementation architecture</a> to find implementations you think are missing, or existing implementations you can contribute to. Every repository in the Eiffel community maintains an issue list, accepts pull requests and features a maintainers' mailing list (linked from each respository README).</p>
-      </div>
-    </section>
-    <section>
-      <div class="container bg-shade">
-        <h1 class="section-heading">The fundamentals</h1>
-        <section>
-          <a href="https://github.com/Ericsson/eiffel"><img src="images/eiffel-protocol-logo.png" class="section-paragraph-image" /></a>
-          <p class="section-paragraph right-of-image">
-            The Eiffel protocol is the foundation of everything else within the Eiffel community. It affords actors within the software production system an agreed and unambiguous vocabulary and syntax to communicate with one another.<br/>
-            Repository: <a href="https://github.com/Ericsson/eiffel">eiffel</a><br>
-            Status: Mature.<br/>
-          </p>
-        </section>
-        <section>
-          <a href="https://github.com/eiffel-community/eiffel-sepia"><img src="images/eiffel-sepia-logo.png" class="section-paragraph-image" /></a>
-          <p class="section-paragraph right-of-image">
-            The Sepia Eiffel Protocol Implementation Architecture is one level down from the Eiffel protocol in terms of abstraction. Because the protocol makes no assumptions with regards to implementation and technology choices, creating a software production system utilizing the Eiffel protocol is a design problem with infinite solutions. Sepia narrows that solution space by identifying types of actors, reference implementations, interface specifications as well as data and Eiffel event type ownership. To get an overview of how actors may collaborate in practice using Eiffel and the concrete implementations available, Sepia is a good place to start.<br/>
-            Repository: <a href="https://github.com/eiffel-community/eiffel-sepia">eiffel-sepia</a><br>
-            Status: In progress.<br/>
-          </p>
-        </section>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <h1 class="section-heading">The meat</h1>
-        <section>
-          <a href="https://github.com/Ericsson/eiffel-intelligence"><img src="images/eiffel-intelligence-logo.png" class="section-paragraph-image" /></a>
-          <p class="section-paragraph right-of-image">
-            Eiffel events are small and atomic, but non-trivial use cases require more information than what can be gained from a single one. Eiffel Intelligence aggregates events over time into rich data objects, representing everything that is known to date about a given type of entity: release candidates, test cases, source revisions, developers and so on. Through its subscription interface clients can sign up for alerts whenever a certain state has been achieved, providing a powerful yet easy to use mechanism for acting upon data gathered from the software production system.<br/>
-            Repository: <a href="https://github.com/Ericsson/eiffel-intelligence">eiffel-intelligence</a><br>
-            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
-            Status: Functional, but not mature.<br/>
-          </p>
-        </section>
-        <section>
-          <a href="https://github.com/Ericsson/eiffel-remrem"><img src="images/eiffel-remrem-logo.png" class="section-paragraph-image" /></a>
-          <p class="section-paragraph right-of-image">
-            Remrem acts as a REST based mailbox towards an Eiffel message bus. It provides an abstraction that allows its clients to send messages without first integrating with a particular messaging technology, and takes care of most of the heavy lifting involved in authoring and publishing event messages.<br/>
-            Repository: <a href="https://github.com/Ericsson/eiffel-remrem">eiffel-remrem</a><br>
-            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
-            Status: In progress.<br/>
-          </p>
-        </section>
-        <section>
-          <a href="https://github.com/Ericsson/eiffel-vici"><img src="images/eiffel-vici-logo.png" class="section-paragraph-image" /></a>
-          <p class="section-paragraph right-of-image">
-            Vici dynamically visualizes Eiffel retrieved from a persistance service. This affords overview and inspection of the software production system in real time, such as it really is, across underlying technologies.
-            Repository: <a href="https://github.com/Ericsson/eiffel-vici">eiffel-vici</a><br>
-            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
-            Status: Functional, but not mature.<br/>
-          </p>
-        </section>
+          <g id="svg_29">
+           <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1125.426171" y="985.142096" width="324.573823" height="30" fill-opacity="0" id="svg_26"/>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1287.574599" y="1008.451726" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_27">Event Persistence</text>
+          </g>
+          <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1290" y1="1015" x2="1290" y2="1050" id="svg_31"/>
+          <g id="svg_36">
+           <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="949.71309" y="859.943201" width="324.573823" height="30" fill-opacity="0" id="svg_34"/>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1111.829482" y="883.252831" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_35">Event Analysis</text>
+          </g>
+          <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1222.821967" y1="890" x2="1222.821967" y2="985" id="svg_37"/>
+          <g id="svg_41">
+           <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1058.487753" y="793.465944" width="324.573823" height="30" fill-opacity="0" id="svg_39"/>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1220.774646" y="816.775574" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_40">Event Presentation</text>
+          </g>
+          <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1238.068176" y1="823" x2="1238.068176" y2="859.602263" id="svg_42"/>
+          <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1321.333333" y1="823" x2="1321.333333" y2="984.801117" id="svg_43"/>
+          <g id="svg_48">
+           <circle fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="800.666721" cy="612.224139" r="81.224152" id="svg_44"/>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="800.511127" y="600.224135" id="svg_46" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">Real time</text>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="800.889033" y="627.557417" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_47">event parsing</text>
+          </g>
+          <g id="svg_53">
+           <circle fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="1015.999955" cy="612.224048" r="81.22406" id="svg_50"/>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1015.844361" y="600.224044" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_51">Aggregated</text>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1016.222268" y="627.557326" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_52">event analysis</text>
+          </g>
+          <g id="svg_58">
+           <circle fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="1401.33334" cy="612.224114" r="81.224152" id="svg_55"/>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1401.177746" y="600.22411" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_56">Historical</text>
+           <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1401.555652" y="627.557392" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_57">event lookup</text>
+          </g>
+          <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1404" y1="694" x2="1404" y2="985" id="svg_59"/>
+          <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="801" y1="694" x2="801" y2="1050" id="svg_60"/>
+          <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1017.333359" y1="694" x2="1017.333359" y2="860" id="svg_61"/>
+          <g id="svg_23">
+           <circle id="svg_20" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="307.999988" cy="612.2242" r="81.224152"/>
+           <text style="cursor: move;" id="svg_21" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="307.844394" y="600.224196" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">Assisted</text>
+           <text id="svg_22" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="308.2223" y="627.557478" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">publishing</text>
+          </g>
+          <g id="svg_24">
+           <circle id="svg_9" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="580.999942" cy="612.224109" r="81.224152"/>
+           <text id="svg_13" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="580.844348" y="600.224105" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">Direct</text>
+           <text id="svg_15" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="581.222254" y="627.557387" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">publishing</text>
+          </g>
+          <line id="svg_25" fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="582" y1="694" x2="582" y2="1050"/>
+          <g id="svg_33">
+           <rect id="svg_30" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="149.713121" y="850.000025" width="324.573823" height="30" fill-opacity="0"/>
+           <text id="svg_32" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="311.829513" y="873.309655" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">Event Publishing</text>
+          </g>
+          <line id="svg_38" fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="306" y1="694" x2="306" y2="850"/>
+          <line id="svg_45" fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="212" y1="880" x2="212" y2="1050"/>
+         </g>
+        </svg>
       </div>
     </section>
     <section>
       <div class="container bg-shade">
-        <h1 class="section-heading">The workshop</h1>
-        <p class="section-paragraph">Apart from the projects listed above, there are many ongoing experiments and studies ongoing. These are projects that welcome contributions and that may well turn into proper implementations over time, but currently leave no guarantees as to maintenance or longevity.</p>
-        <p class="section-paragraph"><a href="https://github.com/eiffel-community/eiffel-jira-plugin">The Eiffel JIRA Plugin</a> turns <a href="https://www.atlassian.com/software/jira">JIRA</a> into an Eiffel enabled actor in the software production system, able to emit events documenting the lifecycle of its tracked issues.</p>
+        <h1 class="section-heading">Event Services</h1>
+        <p class="section-paragraph">An Event Service is a service that does not act in the pipeline, but exists to facilitate the handling of Eiffel events. This may be services for authoring (Command) or for consuming (Query) of such events. Event Services are typically not the provenance of Eiffel event data, but serve the Pipeline Actors and/or users by storing, analyzing, transporting and analyzing the event data.</p>
+        <ul style="list-style-type:none">
+          <li><a href="rabbitmq-message-broker.html">RabbitMQ Message Broker</a></li>
+          <li><a href="event-persistence.html">Event Persistence</a></li>
+        </ul>
       </div>
     </section>
     <section>
       <div class="container">
-        <h1 class="section-heading">The icing</h1>
-        <p class="section-paragraph">Outside of the Eiffel Community organization there are more implementations and extensions of the Eiffel protocol.</p>
-        <p class="section-paragraph"><a href="https://github.com/Praqma/tracey-bitbucket-eiffel-rabbitmq-post-receive-hook">Praqma/tracey-bitbucket-eiffel-rabbitmq-post-receive-hook</a> is a post receive hook plugin to BitBucket to send Eiffel messages using a RabbitMQ message broker.</p>
+        <h1 class="section-heading">Modes of Access</h1>
+        <p class="section-paragraph">A Mode of Access captures a form of interaction with Eiffel events. It does not represent any physical entity, but merely describes a type of behavior.</p>
+        <ul style="list-style-type:none">
+          <li>Assisted Publishing</li>
+          <li>Direct Publishing</li>
+          <li>Real Time Event Parsing</li>
+          <li>Aggregated Event Analysis</li>
+          <li>Historical Event Lookup</li>
+        </ul>
       </div>
     </section>
-
-    <footer class="footer">
-      <div class="container">
-        <nav class="footer-nav">
-          <a class="header-footer-nav-link extra-hover-underline" href="https://eiffel-community.github.io">Eiffel Community</a>
-          <a class="header-footer-nav-link extra-hover-underline" href="https://groups.google.com/forum/#!forum/eiffel-community">Google Group</a>
-          <a class="header-footer-nav-link extra-hover-underline" href="https://www.youtube.com/channel/UC3Zx84ecQ1jyGSc9709xrZg">Youtube Channel</a>
-          <a class="header-footer-nav-link extra-hover-underline" href="https://github.com/ericsson/eiffel/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a>
-          <a class="header-footer-nav-link extra-hover-underline" href="https://github.com/ericsson/eiffel">Protocol Repository</a>
-          <a class="header-footer-nav-link extra-hover-underline" href="https://ericsson.com">Ericsson</a>
-        </nav>
+    <section>
+      <div class="container bg-shade">
+        <h1 class="section-heading">Pipeline Actors</h1>
+        <p class="section-paragraph">Pipeline Actors are the entities that act upon the software in the pipeline. Among the usual suspects are tools that manage, store, test, package and build software. These are authors of Eiffel event data, but may also consume data from other Pipeline Actors in order to inform and configure their behavior.</p>
+        <ul style="list-style-type:none">
+          <li>...</li>
+          <li>...</li>
+        </ul>
       </div>
-      <span class="footer-right-filler">
-        &nbsp;
-      </span>
-    </footer>
+    </section>
+    <div data-include="includes/footer.html"></div>
   </body>
 </html>
