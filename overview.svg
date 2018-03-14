@@ -1,26 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
  <g display="inline">
   <title>Background</title>
-  <rect id="svg_4" stroke-opacity="0" height="450" width="700" y="700" x="800" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#f2e9ed"/>
-  <rect stroke-opacity="0" id="svg_3" height="450" width="700" y="700" x="100" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#e9eef2"/>
-  <rect fill-opacity="0" id="svg_1" height="450" width="1400" y="700" x="100" stroke="#000000" fill="#000000"/>
-  <text transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_5" y="821.273179" x="177.632142" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Event Services</text>
-  <rect id="svg_6" fill-opacity="0" height="650" width="1400" y="50" x="100" stroke="#000000" fill="#000000"/>
-  <text id="svg_7" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="405.122065" x="179.568914" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Pipeline Actors</text>
-  <text transform="matrix(10.8858, 0, 0, 5.64287, -5487.64, -2046.74)" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_8" y="435.555571" x="568.888885" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
-  <text id="svg_10" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="743.851209" x="219.723645" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#e2e2e2">Command</text>
-  <text id="svg_11" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="743.851234" x="481.265444" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#e2e2e2">Query</text>
-  <a xlink:href="./descriptions/rabbitmq.md" id="svg_16"/>
+  <rect fill="#e8efe8" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="101" y="450" width="1400" height="250" stroke-opacity="0" id="svg_63"/>
+  <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" fill-opacity="0" x="100" y="450" width="1400" height="250" id="svg_62"/>
+  <rect fill="#000000" stroke="#000000" x="100" y="700" width="1400" height="450" id="svg_1" fill-opacity="0"/>
+  <rect fill="#f2e9ed" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="699.999997" y="700" width="800" height="450" stroke-opacity="0" id="svg_4"/>
+  <rect fill="#e9eef2" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="100" y="700" width="600" height="450" id="svg_3" stroke-opacity="0"/>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="177.612536" y="821.273179" id="svg_5" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)">Event Services</text>
+  <rect fill="#000000" stroke="#000000" x="100" y="50" width="1400" height="400" fill-opacity="0" id="svg_6"/>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="179.558332" y="405.122065" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" id="svg_7">Pipeline Actors</text>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="568.888885" y="435.555571" id="svg_8" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" transform="matrix(10.8858, 0, 0, 5.64287, -5487.64, -2046.74)"/>
+  <text fill="#e2e2e2" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="201.031434" y="743.851209" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" id="svg_10">Command</text>
+  <text fill="#e2e2e2" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="462.657881" y="743.851234" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" id="svg_11">Query</text>
+  <a id="svg_16" xlink:href="./descriptions/rabbitmq.md"/>
+  <text style="cursor: move;" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="190.629964" y="567.582474" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" font-weight="bold" transform="matrix(2.67491, 0, 0, 2.48221, -137.741, -900.873)" id="svg_64">Modes of Access</text>
  </g>
  <g display="inline">
   <title>Items</title>
-  <a xlink:href="./descriptions/rabbitmq-message-broker.md" id="svg_18">
+  <a id="svg_18" xlink:href="./descriptions/rabbitmq-message-broker.md">
    <g id="svg_17">
-    <rect fill-opacity="0" id="svg_12" height="30" width="1300" y="1050.000038" x="150.000004" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#000000"/>
-    <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_14" y="1073.888923" x="798.518493" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">RabbitMQ Message Broker</text>
+    <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="150.000004" y="1050.000038" width="1300" height="30" id="svg_12" fill-opacity="0"/>
+    <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="798.518493" y="1073.888923" id="svg_14" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">RabbitMQ Message Broker</text>
    </g>
   </a>
+  <g id="svg_29">
+   <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1125.426171" y="985.142096" width="324.573823" height="30" fill-opacity="0" id="svg_26"/>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1287.574599" y="1008.451726" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_27">Event Persistence</text>
+  </g>
+  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1290" y1="1015" x2="1290" y2="1050" id="svg_31"/>
+  <g id="svg_36">
+   <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="949.71309" y="859.943201" width="324.573823" height="30" fill-opacity="0" id="svg_34"/>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1111.829482" y="883.252831" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_35">Event Analysis</text>
+  </g>
+  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1222.821967" y1="890" x2="1222.821967" y2="985" id="svg_37"/>
+  <g id="svg_41">
+   <rect fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1058.487753" y="793.465944" width="324.573823" height="30" fill-opacity="0" id="svg_39"/>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1220.774646" y="816.775574" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_40">Event Presentation</text>
+  </g>
+  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1238.068176" y1="823" x2="1238.068176" y2="859.602263" id="svg_42"/>
+  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1321.333333" y1="823" x2="1321.333333" y2="984.801117" id="svg_43"/>
+  <g id="svg_48">
+   <circle fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="800.666721" cy="612.224139" r="81.224152" id="svg_44"/>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="800.511127" y="600.224135" id="svg_46" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">Real time</text>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="800.889033" y="627.557417" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_47">event parsing</text>
+  </g>
+  <g id="svg_53">
+   <circle fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="1015.999955" cy="612.224048" r="81.22406" id="svg_50"/>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1015.844361" y="600.224044" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_51">Aggregated</text>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1016.222268" y="627.557326" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_52">event analysis</text>
+  </g>
+  <g id="svg_58">
+   <circle fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="1401.33334" cy="612.224114" r="81.224152" id="svg_55"/>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1401.177746" y="600.22411" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_56">Historical</text>
+   <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="1401.555652" y="627.557392" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve" id="svg_57">event lookup</text>
+  </g>
+  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1404" y1="694" x2="1404" y2="985" id="svg_59"/>
+  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="801" y1="694" x2="801" y2="1050" id="svg_60"/>
+  <line fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1017.333359" y1="694" x2="1017.333359" y2="860" id="svg_61"/>
+  <g id="svg_23">
+   <circle id="svg_20" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="307.999988" cy="612.2242" r="81.224152"/>
+   <text style="cursor: move;" id="svg_21" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="307.844394" y="600.224196" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">Assisted</text>
+   <text id="svg_22" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="308.2223" y="627.557478" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">publishing</text>
+  </g>
+  <g id="svg_24">
+   <circle id="svg_9" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="580.999942" cy="612.224109" r="81.224152"/>
+   <text id="svg_13" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="580.844348" y="600.224105" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">Direct</text>
+   <text id="svg_15" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="581.222254" y="627.557387" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">publishing</text>
+  </g>
+  <line id="svg_25" fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="582" y1="694" x2="582" y2="1050"/>
+  <g id="svg_33">
+   <rect id="svg_30" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="149.713121" y="850.000025" width="324.573823" height="30" fill-opacity="0"/>
+   <text id="svg_32" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="311.829513" y="873.309655" font-size="24" font-family="Sans-serif" text-anchor="middle" xml:space="preserve">Event Publishing</text>
+  </g>
+  <line id="svg_38" fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="306" y1="694" x2="306" y2="850"/>
+  <line id="svg_45" fill="none" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="212" y1="880" x2="212" y2="1050"/>
  </g>
 </svg>
