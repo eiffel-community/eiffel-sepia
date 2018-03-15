@@ -110,6 +110,10 @@ body {
   background-color:#fff
 }
 
+svg {
+  width: auto;
+}
+
 a {
   color:#4078c0;
   text-decoration:none
