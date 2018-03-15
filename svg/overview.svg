@@ -22,6 +22,42 @@
      id="defs3719">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient12178">
+      <stop
+         style="stop-color:#b9d9ac;stop-opacity:1;"
+         offset="0"
+         id="stop12174" />
+      <stop
+         style="stop-color:#b9d9ac;stop-opacity:0;"
+         offset="1"
+         id="stop12176" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient12170">
+      <stop
+         style="stop-color:#b9d9ac;stop-opacity:1;"
+         offset="0"
+         id="stop12166" />
+      <stop
+         style="stop-color:#b9d9ac;stop-opacity:0;"
+         offset="1"
+         id="stop12168" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient12126">
+      <stop
+         style="stop-color:#b7abd8;stop-opacity:1;"
+         offset="0"
+         id="stop12122" />
+      <stop
+         style="stop-color:#b7abd8;stop-opacity:0;"
+         offset="1"
+         id="stop12124" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient6727">
       <stop
          style="stop-color:#d7aac0;stop-opacity:1;"
@@ -222,65 +258,6 @@
        inkscape:collect="always"
        xlink:href="#linearGradient6727"
        id="linearGradient7270"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(50.306497,32.122641)"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient6729-8-5"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6668"
-       id="linearGradient7438"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.017978,0,0,0.59027674,252.48156,116.31519)"
-       x1="-168.96838"
-       y1="162.12009"
-       x2="-155.73922"
-       y2="162.12009" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient7440"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(8.9671412,-11.648441)"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient7442"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(31.200072,-5.9165134)"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient7444"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(42.837622,12.147743)"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient7446"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(50.306497,32.122641)"
        x1="-86.28968"
@@ -998,15 +975,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6727"
-       id="linearGradient9608-3"
-       gradientUnits="userSpaceOnUse"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
        id="linearGradient10309"
        gradientUnits="userSpaceOnUse"
        x1="-86.28968"
@@ -1186,51 +1154,11 @@
        xlink:href="#linearGradient6668"
        id="linearGradient10345"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.017978,0,0,0.59027674,252.48156,116.31519)"
+       gradientTransform="matrix(2.017978,0,0,0.59027674,690.10557,45.689873)"
        x1="-168.96838"
        y1="162.12009"
        x2="-155.73922"
        y2="162.12009" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient10347"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(8.9671412,-11.648441)"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient10349"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(31.200072,-5.9165134)"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient10351"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(42.837622,12.147743)"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6727"
-       id="linearGradient10353"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(50.306497,32.122641)"
-       x1="-86.28968"
-       y1="209.57918"
-       x2="-59.831345"
-       y2="209.57918" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6727"
@@ -1290,6 +1218,34 @@
        y1="209.57918"
        x2="-59.831345"
        y2="209.57918" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12126"
+       id="linearGradient12128"
+       x1="-289.45721"
+       y1="259.63588"
+       x2="-262.99888"
+       y2="259.63588"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(437.62387,24.624674)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12170"
+       id="linearGradient12172"
+       x1="47.624958"
+       y1="141.38559"
+       x2="74.083291"
+       y2="141.38559"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient12178"
+       id="linearGradient12180"
+       x1="47.624961"
+       y1="150.10128"
+       x2="74.083294"
+       y2="150.10128"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1299,8 +1255,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.76163299"
-     inkscape:cx="673.89167"
-     inkscape:cy="1101.7643"
+     inkscape:cx="828.02407"
+     inkscape:cy="1103.0034"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1938,148 +1894,52 @@
            sodipodi:role="line"
            id="tspan11089">Orchestration</tspan></text>
     </a>
-    <g
-       id="g6839-4-1"
-       transform="translate(106.67812,-68.193594)">
-      <rect
-         ry="1.2994193"
-         y="205.7505"
-         x="-86.149605"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-18-8"
-         style="display:inline;opacity:1;fill:url(#linearGradient6729-8-5);fill-opacity:1;stroke:#000000;stroke-width:0.28014472;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <rect
+       style="display:inline;opacity:1;fill:url(#linearGradient12172);fill-opacity:1;stroke:#000000;stroke-width:0.28014472;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8"
+       width="26.178188"
+       height="7.6573553"
+       x="47.76503"
+       y="137.55692"
+       ry="1.2994193" />
+    <a
+       id="a12158"
+       xlink:href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityTriggeredEvent.md">
       <text
-         id="text6674-46-6"
-         y="211.59938"
-         x="-73.013657"
+         id="text6674-4-4-5"
+         y="143.40579"
+         x="60.900978"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="211.59938"
-           x="-73.013657"
-           id="tspan6672-7-6"
-           sodipodi:role="line">TERCC</tspan></text>
-    </g>
-    <g
-       transform="translate(135.99897,-70.625326)"
-       style="display:inline"
-       id="g6679-4-7-5">
-      <g
-         id="g6718-6-4">
-        <rect
-           style="display:inline;opacity:1;fill:url(#linearGradient7438);fill-opacity:1;stroke:#000000;stroke-width:0.28014472;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-           id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8"
-           width="26.178188"
-           height="7.6573553"
-           x="-88.23394"
-           y="208.18224"
-           ry="1.2994193" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="-75.097992"
-           y="214.03111"
-           id="text6674-4-4-5"><tspan
-             sodipodi:role="line"
-             id="tspan6672-4-8-3"
-             x="-75.097992"
-             y="214.03111"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">ED</tspan></text>
-      </g>
-    </g>
-    <g
-       id="g6844-1-0"
-       transform="translate(152.18402,-56.545141)">
-      <rect
-         ry="1.2994193"
-         y="194.10205"
-         x="-77.182465"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-7-3-3"
-         style="display:inline;opacity:1;fill:url(#linearGradient7440);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-      <text
-         id="text6674-7-8-1"
-         y="199.95093"
-         x="-64.046516"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="199.95093"
-           x="-64.046516"
-           id="tspan6672-8-8-5"
-           sodipodi:role="line">TCT</tspan></text>
-    </g>
-    <g
-       id="g6849-4-9"
-       transform="translate(102.71457,-53.561392)">
-      <rect
-         ry="1.2994193"
-         y="199.83398"
-         x="-54.949535"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-9-3-5"
-         style="display:inline;opacity:1;fill:url(#linearGradient7442);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+           y="143.40579"
+           x="60.900978"
+           id="tspan6672-4-8-3"
+           sodipodi:role="line">ActT</tspan></text>
+    </a>
+    <rect
+       style="display:inline;opacity:1;fill:url(#linearGradient12180);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4829-7-7-8-4-2-4-5-1-8-9-3-5"
+       width="26.178188"
+       height="7.6573553"
+       x="47.765034"
+       y="146.2726"
+       ry="1.2994193" />
+    <a
+       id="a12162"
+       xlink:href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityCanceledEvent.md">
       <text
          id="text6674-5-4-8"
-         y="205.68286"
-         x="-41.813583"
+         y="152.12148"
+         x="60.900986"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="205.68286"
-           x="-41.813583"
+           y="152.12148"
+           x="60.900986"
            id="tspan6672-5-9-7"
-           sodipodi:role="line">TCC</tspan></text>
-    </g>
-    <g
-       id="g6859-2-7"
-       transform="translate(118.31354,-71.625647)">
-      <rect
-         ry="1.2994193"
-         y="217.89824"
-         x="-43.311985"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-71-8-4"
-         style="display:inline;opacity:1;fill:url(#linearGradient7444);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-      <text
-         id="text6674-0-6-0"
-         y="223.74712"
-         x="-30.176035"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="223.74712"
-           x="-30.176035"
-           id="tspan6672-6-6-9"
-           sodipodi:role="line">TCF</tspan></text>
-    </g>
-    <g
-       id="g6869-4-6"
-       transform="translate(56.37161,-91.600546)">
-      <rect
-         ry="1.2994193"
-         y="237.87314"
-         x="-35.843109"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-8-0-8"
-         style="display:inline;opacity:1;fill:url(#linearGradient7446);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-      <text
-         id="text6674-3-7-1"
-         y="243.72202"
-         x="-22.707161"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="243.72202"
-           x="-22.707161"
-           id="tspan6672-51-8-3"
-           sodipodi:role="line">TSS</tspan></text>
-    </g>
+           sodipodi:role="line">ActC</tspan></text>
+    </a>
     <rect
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.61316735;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="rect4829-7-7-8-4-2-4-5-1-5-3"
@@ -3140,11 +3000,12 @@
        id="rect4829-7-7-8-4-2-4-5-1-5-4-9-2"
        width="91.991013"
        height="39.074333"
-       x="215.94189"
-       y="116.72325"
+       x="14.858667"
+       y="259.59824"
        ry="6.6307402" />
     <a
        xlink:href="artifact-creation.html"
+       transform="translate(-201.08323,142.875)"
        id="a11854">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-4-1"
@@ -3165,7 +3026,7 @@
     </a>
     <g
        id="g6839-4-1-6-0"
-       transform="translate(307.76139,-68.193594)">
+       transform="translate(106.67817,74.681403)">
       <rect
          ry="1.2994193"
          y="205.7505"
@@ -3187,7 +3048,7 @@
            sodipodi:role="line">TERCC</tspan></text>
     </g>
     <g
-       transform="translate(337.08224,-70.625326)"
+       transform="translate(135.99902,72.249671)"
        style="display:inline"
        id="g6679-4-7-5-6-8">
       <g
@@ -3215,7 +3076,7 @@
     </g>
     <g
        id="g6844-1-0-59-2"
-       transform="translate(353.26729,-56.545141)">
+       transform="translate(152.18407,86.329856)">
       <rect
          ry="1.2994193"
          y="194.10205"
@@ -3238,7 +3099,7 @@
     </g>
     <g
        id="g6849-4-9-1-6"
-       transform="translate(303.79784,-53.561392)">
+       transform="translate(102.71462,89.313605)">
       <rect
          ry="1.2994193"
          y="199.83398"
@@ -3261,7 +3122,7 @@
     </g>
     <g
        id="g6859-2-7-9-9"
-       transform="translate(319.39681,-71.625647)">
+       transform="translate(118.31359,71.24935)">
       <rect
          ry="1.2994193"
          y="217.89824"
@@ -3284,7 +3145,7 @@
     </g>
     <g
        id="g6869-4-6-1-8"
-       transform="translate(257.45488,-91.600546)">
+       transform="translate(56.371656,51.274451)">
       <rect
          ry="1.2994193"
          y="237.87314"
@@ -3310,11 +3171,12 @@
        id="rect4829-7-7-8-4-2-4-5-1-5-4-9-2-1"
        width="91.991013"
        height="39.074333"
-       x="316.48355"
-       y="116.72325"
+       x="215.942"
+       y="259.59824"
        ry="6.6307402" />
     <a
        xlink:href="artifact-publishing.html"
+       transform="translate(-100.54156,142.875)"
        id="a11859">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-4-1-3"
@@ -3335,7 +3197,7 @@
     </a>
     <g
        id="g6839-4-1-6-0-1"
-       transform="translate(408.30303,-68.193594)">
+       transform="translate(307.76148,74.681411)">
       <rect
          ry="1.2994193"
          y="205.7505"
@@ -3357,7 +3219,7 @@
            sodipodi:role="line">TERCC</tspan></text>
     </g>
     <g
-       transform="translate(437.62388,-70.625326)"
+       transform="translate(337.08233,72.249679)"
        style="display:inline"
        id="g6679-4-7-5-6-8-8">
       <g
@@ -3385,7 +3247,7 @@
     </g>
     <g
        id="g6844-1-0-59-2-3"
-       transform="translate(453.80893,-56.545141)">
+       transform="translate(353.26738,86.329864)">
       <rect
          ry="1.2994193"
          y="194.10205"
@@ -3408,7 +3270,7 @@
     </g>
     <g
        id="g6849-4-9-1-6-7"
-       transform="translate(404.33948,-53.561392)">
+       transform="translate(303.79793,89.313613)">
       <rect
          ry="1.2994193"
          y="199.83398"
@@ -3431,7 +3293,7 @@
     </g>
     <g
        id="g6859-2-7-9-9-5"
-       transform="translate(419.93845,-71.625647)">
+       transform="translate(319.3969,71.249358)">
       <rect
          ry="1.2994193"
          y="217.89824"
@@ -3454,7 +3316,7 @@
     </g>
     <g
        id="g6869-4-6-1-8-2"
-       transform="translate(357.99652,-91.600546)">
+       transform="translate(257.45497,51.274459)">
       <rect
          ry="1.2994193"
          y="237.87314"
@@ -3990,11 +3852,12 @@
        id="rect4829-7-7-8-4-2-4-5-1-5-4-9-2-1-0"
        width="91.991013"
        height="39.074333"
-       x="316.48352"
+       x="316.48367"
        y="164.34825"
        ry="6.6307402" />
     <a
        xlink:href="test-outcome-analysis.html"
+       transform="translate(1.4550245e-4)"
        id="a11879">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-4-1-3-6"
@@ -4015,7 +3878,7 @@
     </a>
     <g
        id="g6839-4-1-6-0-1-8"
-       transform="translate(408.30302,-20.568594)">
+       transform="translate(408.30317,-20.568594)">
       <rect
          ry="1.2994193"
          y="205.7505"
@@ -4037,7 +3900,7 @@
            sodipodi:role="line">TERCC</tspan></text>
     </g>
     <g
-       transform="translate(437.62387,-23.000326)"
+       transform="translate(437.62402,-23.000326)"
        style="display:inline"
        id="g6679-4-7-5-6-8-8-5">
       <g
@@ -4065,7 +3928,7 @@
     </g>
     <g
        id="g6844-1-0-59-2-3-3"
-       transform="translate(453.80892,-8.920141)">
+       transform="translate(453.80907,-8.920141)">
       <rect
          ry="1.2994193"
          y="194.10205"
@@ -4088,7 +3951,7 @@
     </g>
     <g
        id="g6849-4-9-1-6-7-4"
-       transform="translate(404.33947,-5.936392)">
+       transform="translate(404.33962,-5.936392)">
       <rect
          ry="1.2994193"
          y="199.83398"
@@ -4111,7 +3974,7 @@
     </g>
     <g
        id="g6859-2-7-9-9-5-1"
-       transform="translate(419.93844,-24.000647)">
+       transform="translate(419.93859,-24.000647)">
       <rect
          ry="1.2994193"
          y="217.89824"
@@ -4134,7 +3997,7 @@
     </g>
     <g
        id="g6869-4-6-1-8-2-0"
-       transform="translate(357.99651,-43.975546)">
+       transform="translate(357.99666,-43.975546)">
       <rect
          ry="1.2994193"
          y="237.87314"
@@ -4158,13 +4021,14 @@
     <rect
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.61316735;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="rect4829-7-7-8-4-2-4-5-1-5-4-87-4"
-       width="91.991013"
+       width="91.990997"
        height="39.074333"
-       x="14.858629"
+       x="14.858667"
        y="211.97325"
        ry="6.6307402" />
     <a
        xlink:href="confidence-level-arbitration.html"
+       transform="translate(4.1416269e-5,-1.1420356e-5)"
        id="a11884">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-0-7"
@@ -4185,7 +4049,7 @@
     </a>
     <g
        id="g6839-4-1-7-8"
-       transform="translate(106.67812,27.056406)">
+       transform="translate(106.67814,27.056394)">
       <rect
          ry="1.2994193"
          y="205.7505"
@@ -4207,7 +4071,7 @@
            sodipodi:role="line">TERCC</tspan></text>
     </g>
     <g
-       transform="translate(135.99897,24.624674)"
+       transform="translate(135.99899,24.624662)"
        style="display:inline"
        id="g6679-4-7-5-7-2">
       <g
@@ -4235,7 +4099,7 @@
     </g>
     <g
        id="g6844-1-0-9-3"
-       transform="translate(152.18402,38.704859)">
+       transform="translate(152.18404,38.704847)">
       <rect
          ry="1.2994193"
          y="194.10205"
@@ -4258,7 +4122,7 @@
     </g>
     <g
        id="g6849-4-9-6-2"
-       transform="translate(102.71457,41.688608)">
+       transform="translate(102.7146,41.688596)">
       <rect
          ry="1.2994193"
          y="199.83398"
@@ -4281,7 +4145,7 @@
     </g>
     <g
        id="g6859-2-7-02-5"
-       transform="translate(118.31354,23.624353)">
+       transform="translate(118.31356,23.624341)">
       <rect
          ry="1.2994193"
          y="217.89824"
@@ -4304,7 +4168,7 @@
     </g>
     <g
        id="g6869-4-6-2-2"
-       transform="translate(56.37161,3.649454)">
+       transform="translate(56.371643,3.6494426)">
       <rect
          ry="1.2994193"
          y="237.87314"
@@ -4675,11 +4539,12 @@
        id="rect4829-7-7-8-4-2-4-5-1-5-4-9-2-1-0-4"
        width="91.991013"
        height="39.074333"
-       x="316.48352"
-       y="211.97325"
+       x="316.48367"
+       y="116.72325"
        ry="6.6307402" />
     <a
        xlink:href="environment-provisioning.html"
+       transform="translate(1.4265518e-4,-95.249991)"
        id="a11899">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-4-1-3-6-7"
@@ -4698,158 +4563,94 @@
            x="362.17313"
            sodipodi:role="line">Provisioning</tspan></text>
     </a>
-    <g
-       id="g6839-4-1-6-0-1-8-1"
-       transform="translate(408.30302,27.056406)">
-      <rect
-         ry="1.2994193"
-         y="205.7505"
-         x="-86.149605"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-18-8-4-9-7-9-2"
-         style="display:inline;opacity:1;fill:url(#linearGradient9608-3);fill-opacity:1;stroke:#000000;stroke-width:0.28014472;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <rect
+       style="display:inline;opacity:1;fill:url(#linearGradient10345);fill-opacity:1;stroke:#000000;stroke-width:0.28014472;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8-2-8-2-1-1"
+       width="26.178188"
+       height="7.6573553"
+       x="349.39008"
+       y="137.55692"
+       ry="1.2994193" />
+    <a
+       transform="translate(437.62401,-70.625317)"
+       xlink:href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelEnvironmentDefinedEvent.md"
+       id="a11913">
       <text
-         id="text6674-46-6-92-9-2-0-7"
-         y="211.59938"
-         x="-73.013657"
+         id="text6674-4-4-5-20-0-7-5-7"
+         y="214.03111"
+         x="-75.097992"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="211.59938"
-           x="-73.013657"
-           id="tspan6672-7-6-8-3-0-2-2"
-           sodipodi:role="line">TERCC</tspan></text>
-    </g>
-    <g
-       transform="translate(437.62387,24.624674)"
-       style="display:inline"
-       id="g6679-4-7-5-6-8-8-5-4">
-      <g
-         id="g6718-6-4-0-3-2-2-6">
-        <rect
-           style="display:inline;opacity:1;fill:url(#linearGradient10345);fill-opacity:1;stroke:#000000;stroke-width:0.28014472;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-           id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8-2-8-2-1-1"
-           width="26.178188"
-           height="7.6573553"
-           x="-88.23394"
-           y="208.18224"
-           ry="1.2994193" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="-75.097992"
            y="214.03111"
-           id="text6674-4-4-5-20-0-7-5-7"><tspan
-             sodipodi:role="line"
-             id="tspan6672-4-8-3-3-1-6-3-1"
-             x="-75.097992"
-             y="214.03111"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">ED</tspan></text>
-      </g>
-    </g>
-    <g
-       id="g6844-1-0-59-2-3-3-1"
-       transform="translate(453.80892,38.704859)">
-      <rect
-         ry="1.2994193"
-         y="194.10205"
-         x="-77.182465"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-7-3-3-1-8-7-3-3"
-         style="display:inline;opacity:1;fill:url(#linearGradient10347);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+           x="-75.097992"
+           id="tspan6672-4-8-3-3-1-6-3-1"
+           sodipodi:role="line">ED</tspan></text>
+    </a>
+    <rect
+       ry="6.6307402"
+       y="259.59824"
+       x="115.40033"
+       height="39.074333"
+       width="91.991013"
+       id="rect4829-7-7-8-4-2-4-5-1-5-4-87-4-4-2"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.61316735;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <a
+       xlink:href="composition-definition.html"
+       id="a11904-4"
+       style="display:inline"
+       transform="translate(100.54169,-2e-5)">
       <text
-         id="text6674-7-8-1-0-9-7-6-7"
-         y="199.95093"
-         x="-64.046516"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="199.95093"
-           x="-64.046516"
-           id="tspan6672-8-8-5-3-2-0-3-7"
-           sodipodi:role="line">TCT</tspan></text>
-    </g>
-    <g
-       id="g6849-4-9-1-6-7-4-2"
-       transform="translate(404.33947,41.688608)">
-      <rect
-         ry="1.2994193"
-         y="199.83398"
-         x="-54.949535"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-9-3-5-7-0-4-0-4"
-         style="display:inline;opacity:1;fill:url(#linearGradient10349);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667099px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458347"
+         x="60.548214"
+         y="266.93979"
+         id="text4833-0-8-1-87-0-4-1-6-1-2-0-7-1-1"><tspan
+           sodipodi:role="line"
+           x="60.548214"
+           y="266.93979"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667099px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458347"
+           id="tspan11842-5">Composition</tspan><tspan
+           id="tspan12092"
+           sodipodi:role="line"
+           x="60.548214"
+           y="277.52313"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667099px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458347">Definition</tspan></text>
+    </a>
+    <rect
+       ry="1.2994193"
+       y="280.43188"
+       x="148.30673"
+       height="7.6573553"
+       width="26.178188"
+       id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8-26-4-2-0"
+       style="display:inline;opacity:1;fill:url(#linearGradient12128);fill-opacity:1;stroke:#000000;stroke-width:0.28014472;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <a
+       id="a12142"
+       xlink:href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelCompositionDefinedEvent.md">
       <text
-         id="text6674-5-4-8-5-3-8-2-6"
-         y="205.68286"
-         x="-41.813583"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="205.68286"
-           x="-41.813583"
-           id="tspan6672-5-9-7-2-8-0-5-6"
-           sodipodi:role="line">TCC</tspan></text>
-    </g>
-    <g
-       id="g6859-2-7-9-9-5-1-8"
-       transform="translate(419.93844,23.624353)">
-      <rect
-         ry="1.2994193"
-         y="217.89824"
-         x="-43.311985"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-71-8-4-95-9-3-8-2"
-         style="display:inline;opacity:1;fill:url(#linearGradient10351);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-      <text
-         id="text6674-0-6-0-7-0-1-2-9"
-         y="223.74712"
-         x="-30.176035"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="223.74712"
-           x="-30.176035"
-           id="tspan6672-6-6-9-1-9-1-5-2"
-           sodipodi:role="line">TCF</tspan></text>
-    </g>
-    <g
-       id="g6869-4-6-1-8-2-0-9"
-       transform="translate(357.99651,3.649454)">
-      <rect
-         ry="1.2994193"
-         y="237.87314"
-         x="-35.843109"
-         height="7.6573553"
-         width="26.178188"
-         id="rect4829-7-7-8-4-2-4-5-1-8-8-0-8-9-7-1-7-4"
-         style="display:inline;opacity:1;fill:url(#linearGradient10353);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-      <text
-         id="text6674-3-7-1-5-4-0-0-3"
-         y="243.72202"
-         x="-22.707161"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
-           y="243.72202"
-           x="-22.707161"
-           id="tspan6672-51-8-3-3-2-6-0-7"
-           sodipodi:role="line">TSS</tspan></text>
-    </g>
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="161.44266"
+         y="286.28076"
+         id="text6674-4-4-5-4-7-2-7"><tspan
+           sodipodi:role="line"
+           id="tspan6672-4-8-3-2-1-9-4"
+           x="161.44266"
+           y="286.28076"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">CD</tspan></text>
+    </a>
     <rect
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.61316735;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="rect4829-7-7-8-4-2-4-5-1-5-4-87-4-4"
        width="91.991013"
        height="39.074333"
-       x="14.858629"
-       y="259.59827"
+       x="215.942"
+       y="116.72325"
        ry="6.6307402" />
     <a
        xlink:href="flow-context-management.html"
+       transform="translate(201.08337,-142.87501)"
        id="a11904">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-0-7-1"
@@ -4870,7 +4671,7 @@
     </a>
     <g
        id="g6839-4-1-7-8-6"
-       transform="translate(106.67812,74.681406)">
+       transform="translate(307.76149,-68.193604)">
       <rect
          ry="1.2994193"
          y="205.7505"
@@ -4892,7 +4693,7 @@
            sodipodi:role="line">TERCC</tspan></text>
     </g>
     <g
-       transform="translate(135.99897,72.249674)"
+       transform="translate(337.08234,-70.625336)"
        style="display:inline"
        id="g6679-4-7-5-7-2-9">
       <g
@@ -4920,7 +4721,7 @@
     </g>
     <g
        id="g6844-1-0-9-3-4"
-       transform="translate(152.18402,86.329859)">
+       transform="translate(353.26739,-56.545151)">
       <rect
          ry="1.2994193"
          y="194.10205"
@@ -4943,7 +4744,7 @@
     </g>
     <g
        id="g6849-4-9-6-2-1"
-       transform="translate(102.71457,89.313608)">
+       transform="translate(303.79794,-53.561402)">
       <rect
          ry="1.2994193"
          y="199.83398"
@@ -4966,7 +4767,7 @@
     </g>
     <g
        id="g6859-2-7-02-5-1"
-       transform="translate(118.31354,71.249353)">
+       transform="translate(319.39691,-71.625657)">
       <rect
          ry="1.2994193"
          y="217.89824"
@@ -4989,7 +4790,7 @@
     </g>
     <g
        id="g6869-4-6-2-2-1"
-       transform="translate(56.37161,51.274454)">
+       transform="translate(257.45498,-91.600556)">
       <rect
          ry="1.2994193"
          y="237.87314"
