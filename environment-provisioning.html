@@ -17,25 +17,27 @@
     <section>
       <div class="container">
         <h1 class="section-heading">Environment Provisioning</h1>
-        <p class="section-paragraph">Description.</p>
+        <p class="section-paragraph">The Environment Provisioning role is responsible for providing environments to tests and activities as needed. Depending on the nature of the software processed by the pipeline and its environment dependencies, such environments may be either very simple, or very complex. Consequently, the Environment Provisioning role may be very simple, or very complex. Many activity execution tools come with built-in environment provisioning through e.g. build slave management, whereas other scenarios require dedicated services.</p>
       </div>
     </section>
     <section>
       <div class="container bg-shade">
         <h1 class="section-heading">Implementations</h1>
-        <p class="section-paragraph">List of implementations.</p>
+        <p class="section-paragraph">None as of yet.</p>
       </div>
     </section>
     <section>
       <div class="container">
         <h1 class="section-heading">Event Authorship</h1>
-        <p class="section-paragraph">Event types authored by this actor role.</p>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelEnvironmentDefinedEvent.md">EiffelEnvironmentDefinedEvent</a></li>
+        </ul>
       </div>
     </section>
     <section>
       <div class="container">
         <h1 class="section-heading">Collaborators</h1>
-        <p class="section-paragraph">Potential collaborators.</p>
+        <p class="section-paragraph">The primary collaborators of this role are the <a href="activity-execution.html">Activity Execution</a> and <a href="test-case-execution.html">Test Case Execution</a> roles, who use it to retrieve the environments in which to execute.</p>
       </div>
     </section>
     <div data-include="includes/footer.html"></div>
