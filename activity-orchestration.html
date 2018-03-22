@@ -17,25 +17,30 @@
     <section>
       <div class="container">
         <h1 class="section-heading">Activity Orchestration</h1>
-        <p class="section-paragraph">Description.</p>
+        <p class="section-paragraph">The Activity Orchestration actor role is responsible for deciding if and when an activity is to be executed, or whether a previously triggered activity is to be canceled. In most pipeline setups, this responsibility is found in some form of "CI server", but may in its simplest form be realized by something like cron. Furthermore, this role is often played by the same actor as <a href="activity-execution.html">Activity Execution</a>. Even when this is the case, Sepia maintains the separation of concerns by splitting the two responsibilities into separate roles.</p>
       </div>
     </section>
     <section>
       <div class="container bg-shade">
         <h1 class="section-heading">Implementations</h1>
-        <p class="section-paragraph">List of implementations.</p>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/eiffel-community/eiffel-jenkins-plugin">Eiffel Jenkins Plugin</a></li>
+        </ul>
       </div>
     </section>
     <section>
       <div class="container">
         <h1 class="section-heading">Event Authorship</h1>
-        <p class="section-paragraph">Event types authored by this actor role.</p>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityTriggeredEvent.md">EiffelActivityTriggeredEvent</a></li>
+          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityCanceledEvent.md">EiffelActivityCanceledEvent</a></li>
+        </ul>
       </div>
     </section>
     <section>
       <div class="container">
         <h1 class="section-heading">Collaborators</h1>
-        <p class="section-paragraph">Potential collaborators.</p>
+        <p class="section-paragraph">The most important collaborator of Activity Orchestration is <a href="activity-execution.html">Activity Execution</a>. Indeed, many popular tools combine the two into a single implementation, effectively turning collaboration between the two roles into process internal calls.</p>
       </div>
     </section>
     <div data-include="includes/footer.html"></div>
