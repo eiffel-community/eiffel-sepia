@@ -17,7 +17,13 @@
     <section>
       <div class="container">
         <h1 class="section-heading">Assisted Publishing</h1>
-        <p class="section-paragraph">Description.</p>
+        <p class="section-paragraph">In Assisted Publishing, actors do not publish events directly to the <a href="rabbitmq-message-broker.html">RabbitMQ Message Broker</a>, but via an <a href="event-publishing.html">Event Publishing</a> service. While <a href="direct-publishing.html">Direct Publishing</a> does not require any additional services, Assisted Publishing offers several benefits:</p>
+        <ul style="list-style-type:none">
+          <li><b>No language specific library integration.</b> <a href="event-publishing.html">Event Publishing</a> services offer a language agnostic REST API that encapsulates the <a href="rabbitmq-message-broker.html">RabbitMQ Message Broker</a> integration.</li>
+          <li><b>Boilerplate generation.</b> Apart from the event type specific payload, all events contain a certain amount of boilerplate in their meta objects. <a href="event-publishing.html">Event Publishing</a> services can handle that on behalf of its clients, allowing them to focus on the content of the events they need to publish.</li>
+          <li><b>Link lookup.</b> Events reference one another via UUIDs, which means that historical events may sometimes have to be fetched from <a href="event-persistence.html">Event Persistence</a> to create a fully formed new event. <a href="event-publishing.html">Event Publishing</a> services can perform this task on behalf of its clients.</li>
+          <li><b>Version negotiation.</b> Whereas staying up to date with the latest event type versions can be difficult for every single actor, <a href="event-publishing.html">Event Publishing</a> services can offer multiple API end-points for historical versions and create a corresponding event on the latest feasible version.</li>
+        </ul>
       </div>
     </section>
     <div data-include="includes/footer.html"></div>
