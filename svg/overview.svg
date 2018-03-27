@@ -1418,7 +1418,7 @@
        y="164.34825"
        ry="6.6307402" />
     <a
-       xlink:href="test-recipe-creation.html"
+       xlink:href="test-execution-recipe-creation.html"
        id="a11874">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-4-1-6"
@@ -1430,12 +1430,12 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667099px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458347"
            y="171.68979"
            x="261.63147"
-           sodipodi:role="line">Test Recipe</tspan><tspan
+           sodipodi:role="line">Test Execution</tspan><tspan
            id="tspan11495"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667099px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458347"
            y="182.27313"
            x="261.63147"
-           sodipodi:role="line">Creation</tspan></text>
+           sodipodi:role="line">Recipe Creation</tspan></text>
     </a>
     <rect
        style="display:inline;opacity:1;fill:url(#linearGradient12528);fill-opacity:1;stroke:#000000;stroke-width:0.28014472;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"

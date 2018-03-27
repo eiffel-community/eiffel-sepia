@@ -268,11 +268,9 @@ section {
   text-decoration: none;
 }
 
-.splash-image {
-  width: 50%;
+.sequence-diagram {
+  width: 95%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
 }
 

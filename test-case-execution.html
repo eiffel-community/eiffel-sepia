@@ -16,26 +16,29 @@
     <div data-include="includes/header.html"></div>
     <section>
       <div class="container">
-        <h1 class="section-heading">Test Execution</h1>
-        <p class="section-paragraph">Description.</p>
+        <h1 class="section-heading">Test Case Execution</h1>
+        <p class="section-paragraph">The Test Case Execution role is responsible for executing test cases. Note that it is very limited in its scope, and that all decision making is located in <a href="test-orchestration.html">Test Orchestration</a> and <a href="test-execution-recipe-creation.html">Test Execution Recipe Creation</a>. Instead, the Test Case Execution role receives the test case to execute, where and how as input and merely reports the progress and outcome of that.</p>
       </div>
     </section>
     <section>
       <div class="container bg-shade">
         <h1 class="section-heading">Implementations</h1>
-        <p class="section-paragraph">List of implementations.</p>
+        <p class="section-paragraph">None as of yet.</p>
       </div>
     </section>
     <section>
       <div class="container">
         <h1 class="section-heading">Event Authorship</h1>
-        <p class="section-paragraph">Event types authored by this actor role.</p>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseStartedEvent.md">EiffelTestCaseStartedEvent</a></li>
+          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md">EiffelTestCaseFinishedEvent</a></li>
+        </ul>
       </div>
     </section>
     <section>
       <div class="container">
         <h1 class="section-heading">Collaborators</h1>
-        <p class="section-paragraph">Potential collaborators.</p>
+        <p class="section-paragraph">The main collaborator of this role is <a href="test-orchestration.html">Test Orchestration</a>, which is responsible for triggering and configuring the Test Case Execution role. Please refer to <a href="test-orchestration.html">Test Orchestration</a> for a more in-depth description of test execution according to Eiffel Sepia.</p>
       </div>
     </section>
     <div data-include="includes/footer.html"></div>
