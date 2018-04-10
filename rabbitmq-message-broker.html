@@ -17,27 +17,39 @@
     <section>
       <div class="container">
         <h1 class="section-heading">RabbitMQ Message Broker</h1>
-        <p class="section-paragraph">Description.</p>
+        <p class="section-paragraph">The RabbitMQ Message Broker is the heart of the Sepia architecture. It routes all event messages from authors to recipients. The RabbitMQ Message Broker is implemented by <a href="https://www.rabbitmq.com/">RabbitMQ</a>, <a href="https://www.rabbitmq.com/changelog.html">version 3.7.0</a> or later. RabbitMQ is a widely deployed open source message broker and completely independent from the Eiffel community. In other words, there is no Eiffel specific message broker implementation. Instead, Sepia lists a small number of requirements on RabbitMQ servers and clients.</p>
       </div>
     </section>
     <section>
       <div class="container bg-shade">
-        <h1 class="section-heading">Implementations</h1>
-        <p class="section-paragraph">List of implementations.</p>
+        <h1 class="section-heading">Server Requirements</h1>
+        <p class="section-paragraph">The RabbitMQ Message Broker SHALL use RabbitMQ version 3.7.0 or later.</p>
+        <p class="section-paragraph">Note that Sepia places no requirements on deployment architecture (e.g. distributed or not), authentication enforcement or exchange configuration. These aspects of the message broker are up to the demands in each specific case.</p>
       </div>
     </section>
     <section>
       <div class="container">
-        <h1 class="section-heading">API Specifications</h1>
-        <p class="section-paragraph">Some RAML?</p>
+        <h1 class="section-heading">Client Requirements</h1>
+        <ul>
+          <li>Client implementations MAY use any any <a href="https://www.rabbitmq.com/api-guide.html">RabbitMQ Client API</a> compatible with <a href="https://www.rabbitmq.com/changelog.html">RabbitMQ 3.7.0 or later</a>.</li>
+          <li>Client implementations SHALL support <a href="https://www.rabbitmq.com/authentication.html">RabbitMQ PLAIN authentication</a>.</li>
+          <li>Client implementations MAY support <a href="https://www.rabbitmq.com/authentication.html">other types of authentication in addition to PLAIN</a>.</li>
+          <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to server deployment or configuration.</li>
+          <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to exchange topology, types or configurations.</li>
+          <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to routing scheme.</li>
+          <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to queue configurations.</li>
+          <li>Any <a href="event-publishing.html">Event Publishing</a> service or pipeline actor implementation accessing the message broker via <a href="direct-publishing.html">Direct Publishing</a> SHALL act as a <a href="https://www.rabbitmq.com/tutorials/tutorial-one-java.html">RabbitMQ producer</a> publishing to a RabbitMQ 3.7.0 or later exchange.</li>
+          <ul>
+            <li>It SHALL support <a href="https://www.rabbitmq.com/tutorials/tutorial-one-java.html">routing keys</a>.</li>
+            <li>It SHALL support <a href="https://www.rabbitmq.com/tutorials/tutorial-three-java.html">named exchanges</a>.</li>
+            <li>Unless stated otherwise in its documentation, it SHALL NOT make any assumptions as to the presence, absence or nature of other producers connected to the same exchange.</li>
+          </ul>
+          <li>Any <a href="event-persistence.html">Event Persistence</a> service, <a href="event-analysis.html">Event Analysis</a> service, <a href="event-presentation.html">Event Presentation</a> service or pipeline actor implementation accessing the message broker via <a href="real-time-event-parsing.html">Real Time Event Parsing</a> SHALL act as a <a href="https://www.rabbitmq.com/tutorials/tutorial-one-java.html">RabbitMQ consumer</a> consuming from a RabbitMQ 3.7.0 or later queue.</li>
+          <ul>
+            <li>Unless otherwise stated in its documentation, it SHALL NOT make any assumptions as to the presence, absence or nature of other consumers connected to the same queue.</li>
+          </ul>
+        </ul>
       </div>
     </section>
-    <section>
-      <div class="container">
-        <h1 class="section-heading">Collaborators</h1>
-        <p class="section-paragraph">Potential collaborators.</p>
-      </div>
-    </section>
-    <div data-include="includes/footer.html"></div>
   </body>
 </html>
