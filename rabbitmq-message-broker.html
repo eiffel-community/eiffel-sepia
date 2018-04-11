@@ -40,6 +40,8 @@
           <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to queue configurations.</li>
           <li>Any <a href="event-publishing.html">Event Publishing</a> service or pipeline actor implementation accessing the message broker via <a href="direct-publishing.html">Direct Publishing</a> SHALL act as a <a href="https://www.rabbitmq.com/tutorials/tutorial-one-java.html">RabbitMQ producer</a> publishing to a RabbitMQ 3.7.0 or later exchange.</li>
           <ul>
+            <li>It SHALL ensure that published event types defined in edition-toulouse of the <a href="https://github.com/Ericsson/eiffel">Eiffel protocol</a> are comply with protocol definitions.</li>
+            <li>It MAY publish messages on Eiffel-like syntax, containing event types not defined in the <a href="https://github.com/Ericsson/eiffel">Eiffel protocol</a>, as well as other other types of messages completely unrelated to the Eiffel protocol.</li>
             <li>It SHALL support <a href="https://www.rabbitmq.com/tutorials/tutorial-one-java.html">routing keys</a>.</li>
             <li>It SHALL support <a href="https://www.rabbitmq.com/tutorials/tutorial-three-java.html">named exchanges</a>.</li>
             <li>Unless stated otherwise in its documentation, it SHALL NOT make any assumptions as to the presence, absence or nature of other producers connected to the same exchange.</li>
