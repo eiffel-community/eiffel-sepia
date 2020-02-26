@@ -17,7 +17,13 @@
     <section>
       <div class="container">
         <h1 class="section-heading">Test Outcome Analysis</h1>
-        <p class="section-paragraph">The Test Outcome Analysis role is similar to the <a href="confidence-level-arbitration.html">Confidence Level Arbitration</a> role, but narrower in scope. By analyzing test outcomes (presumably by listening to <a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md">EiffelTestCaseFinishedEvents</a>) and matching them against known criteria for issue verification, this role determines when a certain issue has been verified for a particular artifact and in a particular environment (or failed verification).</p>
+        <p class="section-paragraph">The Test Outcome Analysis role is similar to the
+          <a href="confidence-level-arbitration.html">Confidence Level Arbitration</a> role, but
+          narrower in scope. By analyzing test outcomes (presumably by listening to
+          <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md">
+            EiffelTestCaseFinishedEvents</a>) and matching them against known criteria for issue
+          verification, this role determines when a certain issue has been verified for a particular
+          artifact and in a particular environment (or failed verification).</p>
       </div>
     </section>
     <section>
@@ -30,14 +36,17 @@
       <div class="container">
         <h1 class="section-heading">Event Authorship</h1>
         <ul style="list-style-type:none">
-          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelIssueVerifiedEvent.md">EiffelIssueVerifiedEvent</a></li>
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelIssueVerifiedEvent.md">EiffelIssueVerifiedEvent</a></li>
         </ul>
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container bg-shade">
         <h1 class="section-heading">Collaborators</h1>
-        <p class="section-paragraph">Test Outcome Analysis is a prime candidate for making use of an <a href="event-analysis.html">Event Analysis</a> service, as the rules for determining whether an issue has been successfully or insuccessfully verified can be complicated, and involve large numbers of events.</p>
+        <p class="section-paragraph">Test Outcome Analysis is a prime candidate for making use of an
+          <a href="event-analysis.html">Event Analysis</a> service, as the rules for determining
+          whether an issue has been successfully or unsuccessfully verified can be complicated, and
+          involve large numbers of events.</p>
       </div>
     </section>
     <div data-include="includes/footer.html"></div>

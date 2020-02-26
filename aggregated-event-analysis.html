@@ -17,8 +17,27 @@
     <section>
       <div class="container">
         <h1 class="section-heading">Aggregated Event Analysis</h1>
-        <p class="section-paragraph">In Aggregated Event Analysis, the <a href="event-analysis.html">Event Analysis</a> service provides a layer of abstraction between the raw Eiffel events and their consumers. This is particularly useful in use cases where information contained in multiple events is required. While Eiffel events can be thought of as verbs communicating what is happening related to certain entities in the pipeline, Aggregated Event Analysis is about learning about those entities based on the sum of all those verbs.</p>
-        <p class="example-paragraph">Example: Whenever a new version of a release candidate has passed a certain set of test cases in a simulated environment, Jane wants to kick off tests in the target environment. She could do this by listening first to the <a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactCreatedEvent.md">EiffelArtifactCreatedEvents</a> of the release candidates, and then listen to any <a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md">EiffelTestCaseFinishedEvents</a> referencing <a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseTriggeredEvent.md">EiffelTestCaseTriggeredEvents<a/> referencing any of those release candidate artifact events. When any one <a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactCreatedEvent.md">EiffelArtifactCreatedEvent</a> has been thus referenced by the correct set of downstream events, that means it's time to start the on-target test. This would require non-trivial logic, however, not to mention the need for storing the state of every release candidate and its downstream events. A much simpler way for Jane to achieve her trigger is to use an <a href="event-analysis.html">Event Analysis</a> service. This is because what she's interested in isn't really the events themselves, but the state of the release candidate: whenever a new release candidate has achieved the state of having passed the required test cases, Jane wants to be notified. This is easily achieved by setting up a subsciption to the <a href="event-analysis.html">Event Analysis</a> service, freeing Jane's trigger from having to maintain any state.</p>
+        <p class="section-paragraph">In Aggregated Event Analysis, the <a href="event-analysis.html">Event Analysis</a>
+          service provides a layer of abstraction between the raw Eiffel events and their consumers.
+          This is particularly useful in use cases where information contained in multiple events is required.
+          While Eiffel events can be thought of as verbs communicating what is happening related to certain
+          entities in the pipeline, Aggregated Event Analysis is about learning about those entities based
+          on the sum of all those verbs.</p>
+        <p class="section-paragraph">Example: Whenever a new version of a release candidate has passed a
+          certain set of test cases in a simulated environment, Jane wants to kick off tests in the target
+          environment. She could do this by listening first to the <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactCreatedEvent.md">
+            EiffelArtifactCreatedEvents</a> of the release candidates, and then listen to any <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md">EiffelTestCaseFinishedEvents</a>
+          referencing <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseTriggeredEvent.md">EiffelTestCaseTriggeredEvents<a/>
+            referencing any of those release candidate artifact events. When any one <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactCreatedEvent.md">EiffelArtifactCreatedEvent</a>
+            has been thus referenced by the correct set of downstream events, that means it's time to
+            start the on-target test. This would require non-trivial logic, however, not to mention the
+            need for storing the state of every release candidate and its downstream events. A much
+            simpler way for Jane to achieve her trigger is to use an <a href="event-analysis.html">Event Analysis</a>
+            service. This is because what she's interested in isn't really the events themselves, but
+            the state of the release candidate: whenever a new release candidate has achieved the state
+            of having passed the required test cases, Jane wants to be notified. This is easily achieved
+            by setting up a subscription to the <a href="event-analysis.html">Event Analysis</a> service,
+            freeing Jane's trigger from having to maintain any state.</p>
       </div>
     </section>
     <div data-include="includes/footer.html"></div>
