@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sepia Eiffel Protocol Implementation Architecture | Test Recipe Creation</title>
+    <title>Eiffel | Sepia Implementation Architecture | Test Execution Recipe Creation</title>
     <meta name="theme-color" content="#ffffff">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel='stylesheet' href='css/index.css'>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/index.css'>
     <meta name="theme-color" content="#ffffff">
-    <script src="js/csi.min.js"></script>
+    <script src="./js/csi.min.js"></script>
   </head>
   <body>
     <div data-include="includes/header.html"></div>
     <section>
       <div class="container">
         <h1 class="section-heading">Test Execution Recipe Creation</h1>
-        <p class="section-paragraph">The Test Execution Recipe Creation actor role is responsible for creation test execution recipes. These can be embedded in, or (in non-trivial cases) referenced from, <a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestExecutionRecipeCollectionCreatedEvent.md">EiffelTestExecutionRecipeCollectionCreatedEvent</a>. The concept of test execution recipes allows the responsibility of test suite scoping to be separated from those of test orchestration, test execution and activity configuration. Through a test execution recipe, this actor role is able to dictate which test cases are to be executed in which types of environments and with which configurations for a specific Item Under Test.</p>
+        <p class="section-paragraph">The Test Execution Recipe Creation actor role is responsible for
+          creation of test execution recipes. These can be embedded in, or (in non-trivial cases)
+          referenced from, <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestExecutionRecipeCollectionCreatedEvent.md">
+            EiffelTestExecutionRecipeCollectionCreatedEvent</a>. The concept of test execution recipes
+          allows the responsibility of test suite scoping to be separated from those of test orchestration,
+          test execution and activity configuration. Through a test execution recipe, this actor role
+          is able to dictate which test cases are to be executed in which types of environments and
+          with which configurations for a specific Item Under Test.</p>
       </div>
     </section>
     <section>
@@ -30,12 +37,12 @@
       <div class="container">
         <h1 class="section-heading">Event Authorship</h1>
         <ul style="list-style-type:none">
-          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestExecutionRecipeCollectionCreatedEvent.md">EiffelTestExecutionRecipeCollectionCreatedEvent</a></li>
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestExecutionRecipeCollectionCreatedEvent.md">EiffelTestExecutionRecipeCollectionCreatedEvent</a></li>
         </ul>
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container bg-shade">
         <h1 class="section-heading">Collaborators</h1>
         <p class="section-paragraph">The foremost collaborators of Test Execution Recipe Creation are the <a href="activity-orchestration.html">Activity Orchestration</a> role, which may use ut to fetch Test Execution Recipe Collections, and the <a href="test-orchestration.html">Test Orchestration</a> role, which use those Test Execution Recipe Collections as input. For a more complete description of test execution according to Eiffel Sepia, see <a href="test-orchestration.html">Test Orchestration</a>.</p>
       </div>

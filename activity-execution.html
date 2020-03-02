@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sepia Eiffel Protocol Implementation Architecture | Activity Execution</title>
+    <title>Eiffel | Sepia Implementation Architecture | Activity Execution</title>
     <meta name="theme-color" content="#ffffff">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel='stylesheet' href='css/index.css'>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/index.css'>
     <meta name="theme-color" content="#ffffff">
-    <script src="js/csi.min.js"></script>
+    <script src="./js/csi.min.js"></script>
   </head>
   <body>
     <div data-include="includes/header.html"></div>
@@ -32,13 +32,13 @@
       <div class="container">
         <h1 class="section-heading">Event Authorship</h1>
         <ul style="list-style-type:none">
-          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityStartedEvent.md">EiffelActivityStartedEvent</a></li>
-          <li><a href="https://github.com/Ericsson/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityFinishedEvent.md">EiffelActivityFinishedEvent</a></li>
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityStartedEvent.md">EiffelActivityStartedEvent</a></li>
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityFinishedEvent.md">EiffelActivityFinishedEvent</a></li>
         </ul>
       </div>
     </section>
     <section>
-      <div class="container">
+      <div class="container bg-shade">
         <h1 class="section-heading">Collaborators</h1>
         <p class="section-paragraph">The most important collaborator of Activity Execution is <a href="activity-orchestration.html">Activity Orchestration</a>. Indeed, many popular tools combine the two into a single implementation, effectively turning collaboration between the two roles into process internal calls.</p>
         <p class="section-paragraph">Other collaborators include <a href="test-orchestration.html">Test Orchestration</a>, <a href="artifact-creation.html">Artifact Creation</a>, <a href="artifact-publishing.html">Artifact Publishing</a> and <a href="">Composition Definition</a>, which are typically invoked by the Activity Execution role, depending on the nature of the activity.</p>
