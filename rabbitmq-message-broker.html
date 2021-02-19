@@ -43,6 +43,15 @@
             <li>It SHALL ensure that published event types defined in edition-toulouse of the <a href="https://github.com/eiffel-community/eiffel">Eiffel protocol</a> comply with protocol definitions.</li>
             <li>It MAY publish messages on Eiffel-like syntax, containing event types not defined in the <a href="https://github.com/eiffel-community/eiffel">Eiffel protocol</a>, as well as other other types of messages completely unrelated to the Eiffel protocol.</li>
             <li>It SHALL support routing keys.</li>
+            <li>
+              It SHOULD use a routing key on the form <code>eiffel.&lt;family&gt;.&lt;type&gt;.&lt;tag&gt;.&lt;domainid&gt;</code>, where:
+              <ul>
+                <li><code>family</code> is the non-empty name of a group of Eiffel events to which the current event belongs. The families have not been defined in Sepia but may be in the future. Implementations may choose to use a fixed string in this field.</li>
+                <li><code>type</code> is the type of the published Eiffel event (i.e. its <code>meta.type</code> member), e.g. EiffelArtifactCreatedEvent.</li>
+                <li><code>tag</code> is an implementation-specific tag. It can be any non-empty string but must not contain a period.</li>
+                <li><code>domainid</code> is the non-empty string representing the domain the event applies to. It corresponds to the <code>meta.source.domainId</code> member of an Eiffel event.</li>
+              </ul>
+            </li>
             <li>It SHALL support named exchanges.</li>
             <li>Unless stated otherwise in its documentation, it SHALL NOT make any assumptions as to the presence, absence or nature of other producers connected to the same exchange.</li>
           </ul>
