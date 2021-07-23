@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T15:34:10.523Z" agent="5.0 (Windows)" etag="O-xVY3wDJ7KLFapFp-BO" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-23T15:38:50.415Z" agent="5.0 (Windows)" etag="Vyf-81JIVo15r6IsLgaE" version="14.9.2" type="github">
   <diagram id="w1ZEGMjmR53ewqX5dvrm" name="Page-1">
     <mxGraphModel dx="1986" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -43,14 +43,14 @@
         <mxCell id="zqeIun6VxYZo0FJ2K99U-26" value="Event Sending" style="swimlane;horizontal=0;rounded=1;sketch=1;glass=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="400" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="4cnv7Ipchus3uO7nBkjI-1" value="REMReM" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="zqeIun6VxYZo0FJ2K99U-26" vertex="1">
-          <mxGeometry x="40" y="40" width="70" height="70" as="geometry" />
+        <mxCell id="4cnv7Ipchus3uO7nBkjI-1" value="REMReM" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#56517e;fillColor=#d0cee2;sketch=1;" parent="zqeIun6VxYZo0FJ2K99U-26" vertex="1">
+          <mxGeometry x="40" y="40" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-4" value="&lt;div&gt;Eiffel Python lib&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zqeIun6VxYZo0FJ2K99U-26">
-          <mxGeometry x="130" y="40" width="70" height="70" as="geometry" />
+          <mxGeometry x="140" y="40" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-5" value="&lt;div&gt;simple event sender &lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zqeIun6VxYZo0FJ2K99U-26">
-          <mxGeometry x="220" y="40" width="70" height="70" as="geometry" />
+          <mxGeometry x="230" y="40" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-27" value="Get started &amp; Testing" style="swimlane;horizontal=0;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="640" width="240" height="160" as="geometry" />
@@ -79,17 +79,17 @@
         <mxCell id="zqeIun6VxYZo0FJ2K99U-32" value="Event processing" style="swimlane;horizontal=0;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="4cnv7Ipchus3uO7nBkjI-5" value="Eiffel Intelligence" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="zqeIun6VxYZo0FJ2K99U-32" vertex="1">
-          <mxGeometry x="40" y="40" width="70" height="70" as="geometry" />
+        <mxCell id="4cnv7Ipchus3uO7nBkjI-5" value="Eiffel Intelligence" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#56517e;fillColor=#d0cee2;sketch=1;" parent="zqeIun6VxYZo0FJ2K99U-32" vertex="1">
+          <mxGeometry x="40" y="40" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-13" value="eiffelactory" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zqeIun6VxYZo0FJ2K99U-32">
-          <mxGeometry x="130" y="40" width="70" height="70" as="geometry" />
+          <mxGeometry x="140" y="40" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-33" value="Test framework" style="swimlane;horizontal=0;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="40" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zqeIun6VxYZo0FJ2K99U-1" value="&lt;div&gt;ETOS&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zqeIun6VxYZo0FJ2K99U-33">
-          <mxGeometry x="40" y="40" width="70" height="70" as="geometry" />
+        <mxCell id="zqeIun6VxYZo0FJ2K99U-1" value="&lt;div&gt;ETOS&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#56517e;fillColor=#d0cee2;sketch=1;" vertex="1" parent="zqeIun6VxYZo0FJ2K99U-33">
+          <mxGeometry x="40" y="40" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-35" value="Community" style="swimlane;horizontal=0;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="440" width="320" height="160" as="geometry" />
@@ -106,7 +106,7 @@
         <mxCell id="zqeIun6VxYZo0FJ2K99U-40" value="Libraries" style="swimlane;horizontal=0;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="240" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zqeIun6VxYZo0FJ2K99U-12" value="eiffel commons" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="zqeIun6VxYZo0FJ2K99U-40">
+        <mxCell id="zqeIun6VxYZo0FJ2K99U-12" value="eiffel commons" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="zqeIun6VxYZo0FJ2K99U-40">
           <mxGeometry x="40" y="40" width="70" height="70" as="geometry" />
         </mxCell>
       </root>
