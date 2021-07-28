@@ -7,21 +7,26 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
     <link rel="manifest" href="./manifest.json">
     <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/chota.min.css'>
     <link rel='stylesheet' href='./css/index.css'>
     <meta name="theme-color" content="#ffffff">
     <script src="./js/csi.min.js"></script>
   </head>
-  <body>
+  <body class="container">
     <div data-include="./includes/header.html"></div>
-    <section>
-      <div class="container">
         <h1 class="section-heading">Sepia Eiffel Protocol Implementation Architecture</h1>
-        <p class="section-paragraph">The Sepia project forms part of the larger Eiffel Community, where it provides guidance both to contributors and users of the Eiffel protocol and its implementations. While there is an infinite number of possible solutions to the problem of implementing the Eiffel protocol, Sepia represents one such solution, recommended and supported by the community.</p>
-        <p class="section-paragraph">Below you will find an overview image of the architecture. Each item in the overview is a clickable link that will take you to its description, example implementations and API specifications. Each Pipeline Actor role is presented along with the event types of which it holds authorship, with further details provided in the description of the Pipeline Actor role.</p>
+        <p class="section-paragraph">The Sepia project forms part of the larger Eiffel Community,
+          where it provides guidance both to contributors and users of the Eiffel protocol and its
+          implementations. While there is an infinite number of possible solutions to the problem of
+          implementing the Eiffel protocol, Sepia represents one such solution, recommended and
+          supported by the community.</p>
+        <p class="section-paragraph">Below you will find an overview image of the architecture.
+          Each item in the overview is a <b>clickable link</b> that will take you to its description,
+          example implementations and API specifications. Each Pipeline Actor role is presented along
+          with the event types of which it holds authorship, with further details provided in the
+          description of the Pipeline Actor role.</p>
       </div>
-    </section>
-    <section>
-      <div class="container">
+
         <!-- SVG created with Inkscape (http://www.inkscape.org/) -->
 
         <svg
@@ -1996,37 +2001,36 @@
                inkscape:connector-curvature="0" />
           </g>
         </svg>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <h2 class="section-heading">Event Services</h2>
+          <p class="section-paragraph">An Event Service is a service that does not act in the pipeline, but exists to facilitate the handling of Eiffel events. This may be services for authoring (Command) or for consuming (Query) of such events. Event Services are typically not the provenance of Eiffel event data, but serve the Pipeline Actors and/or users by storing, analyzing, transporting and analyzing the event data.</p>
+          <ul style="list-style-type:none">
+            <li><a href="event-analysis.html">Event Analysis</a></li>
+            <li><a href="event-persistence.html">Event Persistence</a></li>
+            <li><a href="event-presentation.html">Event Presentation</a></li>
+            <li><a href="event-publishing.html">Event Publishing</a></li>
+            <li><a href="rabbitmq-message-broker.html">RabbitMQ Message Broker</a></li>
+          </ul>
+        </div>
       </div>
-    </section>
-    <section>
-      <div class="container bg-shade">
-        <h1 class="section-heading">Event Services</h1>
-        <p class="section-paragraph">An Event Service is a service that does not act in the pipeline, but exists to facilitate the handling of Eiffel events. This may be services for authoring (Command) or for consuming (Query) of such events. Event Services are typically not the provenance of Eiffel event data, but serve the Pipeline Actors and/or users by storing, analyzing, transporting and analyzing the event data.</p>
-        <ul style="list-style-type:none">
-          <li><a href="event-analysis.html">Event Analysis</a></li>
-          <li><a href="event-persistence.html">Event Persistence</a></li>
-          <li><a href="event-presentation.html">Event Presentation</a></li>
-          <li><a href="event-publishing.html">Event Publishing</a></li>
-          <li><a href="rabbitmq-message-broker.html">RabbitMQ Message Broker</a></li>
-        </ul>
+      <div class="col">
+        <div class="card">
+          <h2 class="section-heading">Modes of Access</h2>
+          <p class="section-paragraph">A Mode of Access captures a form of interaction with Eiffel events. It does not represent any physical entity, but merely describes a type of behavior.</p>
+          <ul style="list-style-type:none">
+            <li><a href="aggregated-event-analysis.html">Aggregated Event Analysis</a></li>
+            <li><a href="assisted-publishing.html">Assisted Publishing</a></li>
+            <li><a href="historical-event-lookup.html">Historical Event Lookup</a></li>
+            <li><a href="direct-publishing.html">Direct Publishing</a></li>
+            <li><a href="real-time-event-parsing.html">Real Time Event Parsing</a></li>
+          </ul>
+        </div>
       </div>
-    </section>
-    <section>
-      <div class="container">
-        <h1 class="section-heading">Modes of Access</h1>
-        <p class="section-paragraph">A Mode of Access captures a form of interaction with Eiffel events. It does not represent any physical entity, but merely describes a type of behavior.</p>
-        <ul style="list-style-type:none">
-          <li><a href="aggregated-event-analysis.html">Aggregated Event Analysis</a></li>
-          <li><a href="assisted-publishing.html">Assisted Publishing</a></li>
-          <li><a href="historical-event-lookup.html">Historical Event Lookup</a></li>
-          <li><a href="direct-publishing.html">Direct Publishing</a></li>
-          <li><a href="real-time-event-parsing.html">Real Time Event Parsing</a></li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <div class="container bg-shade">
-        <h1 class="section-heading">Pipeline Actors</h1>
+    <div class="col">
+      <div class="card">
+        <h2 class="section-heading">Pipeline Actors</h2>
         <p class="section-paragraph">Pipeline Actors are the entities that act upon the software in the pipeline. Among the usual suspects are tools that manage, store, test, package and build software. These are authors of Eiffel event data, but may also consume data from other Pipeline Actors in order to inform and configure their behavior.</p>
         <ul style="list-style-type:none">
           <li><a href="activity-execution.html">Activity Execution</a></li>
@@ -2045,7 +2049,8 @@
           <li><a href="test-execution-recipe-creation.html">Test Execution Recipe Creation</a></li>
         </ul>
       </div>
-    </section>
+    </div>
+    </div>
     <section>
       <div class="container">
         <h1 class="section-heading">About Sepia</h1>

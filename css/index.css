@@ -1,3 +1,78 @@
+@import "chota.min.css";
+
+
+
+
+a {
+  color:#C00000;
+  text-decoration:none;
+}
+
+a:hover,a:active {
+  text-decoration:underline;
+  text-decoration-color: blue;
+}
+
+footer,nav {
+  display:block
+}
+
+.footer {
+  position:relative;
+  padding-top:15px;
+  padding-bottom:50px;
+  margin-top:30px;
+  font-size:13px;
+  line-height:32px;
+  text-align:center;
+  border-top:1px solid #e8e8e8;
+  background: #A7A7A7;
+}
+
+.footer-nav {
+  float:left
+}
+
+.footer-right-filler {
+  float:right
+}
+
+.header-nav {
+  float: right;
+  min-height: 30px;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.header-footer-nav-link {
+  color: #333;
+  font-size: 24px;
+  font-size: 15px;
+  border-bottom: 2px solid transparent;
+  margin-left: 15px;
+}
+
+.header-logo-image {
+  padding-right: 5px;
+  padding-top:15px;
+  padding-bottom:15px;
+  height: 75px;
+  width: auto;
+  vertical-align: middle !important;
+}
+
+.header-nav-link-image {
+  height: 32px;
+  width: auto;
+  vertical-align: middle !important;
+}
+
+svg {
+    padding-bottom: 50px;
+}
+
+
+/*
 html {
   font-family:sans-serif;text-size-adjust:100%
 }
@@ -6,9 +81,6 @@ body {
   margin:0
 }
 
-footer,nav {
-  display:block
-}
 
 a {
   background-color:transparent
@@ -110,10 +182,7 @@ body {
   background-color:#fff
 }
 
-a {
-  color:#C00000;
-  text-decoration:none;
-}
+
 
 .bg-shade a {
   color:#fff;
@@ -122,10 +191,7 @@ a {
   text-decoration-color: #C00000;
 }
 
-a:hover,a:active {
-  text-decoration:underline;
-  text-decoration-color: #C00000;
-}
+
 
 hr,.rule{
   height:0;
@@ -197,17 +263,7 @@ section {
   margin-top:10px;
 }
 
-.footer {
-  position:relative;
-  padding-top:15px;
-  padding-bottom:50px;
-  margin-top:30px;
-  font-size:13px;
-  line-height:32px;
-  text-align:center;
-  border-top:1px solid #e8e8e8;
-  background: #A7A7A7;
-}
+
 
 .bg-shade {
   color: #FFFFFF;
@@ -216,13 +272,7 @@ section {
   background: #5c5c5c;
 }
 
-.footer-nav {
-  float:left
-}
 
-.footer-right-filler {
-  float:right
-}
 
 .container {
   margin-left:auto;
@@ -236,39 +286,13 @@ section {
 .header {
 }
 
-.header-nav {
-  float: right;
-  min-height: 30px;
-  line-height: 30px;
-  padding-top: 15px;
-}
 
-.header-footer-nav-link {
-  color: #333;
-  font-size: 24px;
-  font-size: 15px;
-  border-bottom: 2px solid transparent;
-  margin-left: 15px;
-}
 
 .extra-hover-underline.active, .extra-hover-underline:active, .extra-hover-underline:hover {
 
 }
 
-.header-logo-image {
-  padding-right: 5px;
-  padding-top:15px;
-  padding-bottom:15px;
-  height: 75px;
-  width: auto;
-  vertical-align: middle !important;
-}
 
-.header-nav-link-image {
-  height: 32px;
-  width: auto;
-  vertical-align: middle !important;
-}
 
 .no-underline-hover:hover {
   text-decoration: none;
@@ -348,3 +372,4 @@ section {
     font-size: 12px;
   }
 }
+*/
