@@ -12,22 +12,22 @@
     <meta name="theme-color" content="#ffffff">
     <script src="./js/csi.min.js"></script>
   </head>
-  <body>
+  <body class="container">
     <div data-include="includes/header.html"></div>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Source Management</h1>
         <p class="section-paragraph">The Source Management role is responsible for storing and tracking source code revisions. In typical use cases, it is not triggered by information in Eiffel events, but rather by direct actions by developers (e.g. committing changes). Instead, Source Management actors are often the progenitors of subsequent pipeline activities triggered and configured by the events they publish.</p>
       </div>
     </section>
     <section>
-      <div class="container bg-shade">
+      <div>
         <h1 class="section-heading">Implementations</h1>
         <p class="section-paragraph">None as of yet.</p>
       </div>
     </section>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Event Authorship</h1>
         <ul style="list-style-type:none">
           <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelSourceChangeCreatedEvent.md">EiffelSourceChangeCreatedEvent</a></li>
@@ -36,7 +36,7 @@
       </div>
     </section>
     <section>
-      <div class="container bg-shade">
+      <div>
         <h1 class="section-heading">Collaborators</h1>
         <p class="section-paragraph">The foremost collaborators can be split into two categories: those triggered by Source Management actors, and those who operate on their data. In the first category we find the <a href="activity-orchestration.html">Activity Orchestration</a>, while the second contains <a href="artifact-creation.html">Artifact Creation</a>, <a href="composition-definition.html">Composition Definition</a> and (in some cases, depending on its implementation) <a href="test-execution-recipe-creation.html">Test Execution Recipe Creation</a>.</p>
       </div>

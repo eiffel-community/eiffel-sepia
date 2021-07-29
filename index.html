@@ -14,18 +14,17 @@
   </head>
   <body class="container">
     <div data-include="./includes/header.html"></div>
-        <h1 class="section-heading">Sepia Eiffel Protocol Implementation Architecture</h1>
-        <p class="section-paragraph">The Sepia project forms part of the larger Eiffel Community,
-          where it provides guidance both to contributors and users of the Eiffel protocol and its
-          implementations. While there is an infinite number of possible solutions to the problem of
-          implementing the Eiffel protocol, Sepia represents one such solution, recommended and
-          supported by the community.</p>
-        <p class="section-paragraph">Below you will find an overview image of the architecture.
-          Each item in the overview is a <b>clickable link</b> that will take you to its description,
-          example implementations and API specifications. Each Pipeline Actor role is presented along
-          with the event types of which it holds authorship, with further details provided in the
-          description of the Pipeline Actor role.</p>
-      </div>
+    <h1 class="section-heading">Sepia Eiffel Protocol Implementation Architecture</h1>
+    <p class="section-paragraph">The Sepia project forms part of the larger Eiffel Community,
+      where it provides guidance both to contributors and users of the Eiffel protocol and its
+      implementations. While there is an infinite number of possible solutions to the problem of
+      implementing the Eiffel protocol, Sepia represents one such solution, recommended and
+      supported by the community.</p>
+    <p class="section-paragraph">Below you will find an overview image of the architecture.
+      Each item in the overview is a <b>clickable link</b> that will take you to its description,
+      example implementations and API specifications. Each Pipeline Actor role is presented along
+      with the event types of which it holds authorship, with further details provided in the
+      description of the Pipeline Actor role.</p>
 
         <!-- SVG created with Inkscape (http://www.inkscape.org/) -->
 
@@ -2052,7 +2051,7 @@
     </div>
     </div>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">About Sepia</h1>
         <p class="section-paragraph">Sepia always reflects a specific edition of the Eiffel protocol. You are currently looking at the <a href="https://github.com/eiffel-community/eiffel/tree/edition-toulouse">Toulouse edition</a>.</p>
         <p class="section-paragraph">Like any <a href="http://www.iso-architecture.org/ieee-1471/ads/">architectural description</a>, Sepia makes certain choices with regards to what to express, and what not to express. Sepia is different from most software architecture descriptions in that it does not express a single identified system, but rather a template of a system. Consequently it does not identify implementations directly, but roles for implementations to fill along with the responsibilities and constraints of those roles. Beyond those responsibilities and constraints, different implementations may have different features or side effects. In particular, Sepia defines which Pipeline Actors are responsible for authoring event types, but not which event types they may consume. This is intentional, as it preserves a high degree of freedom in implementing Eiffel to suit the individual case. To exemplify, it is perfectly legal for implementations of the <a href="activity-orchestration.html">Activity Orchestration</a> role to only publish relevant events, but it may also be implemented to consume and trigger based on any Eiffel event type.</p>

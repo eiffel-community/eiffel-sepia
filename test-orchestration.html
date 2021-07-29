@@ -12,22 +12,22 @@
     <meta name="theme-color" content="#ffffff">
     <script src="./js/csi.min.js"></script>
   </head>
-  <body>
+  <body class="container">
     <div data-include="includes/header.html"></div>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Test Orchestration</h1>
         <p class="section-paragraph">The Test Orchesration actor role is responsible for triggering and/or canceling test case executions, and grouping them into test suites. This may be done directly based on some internal logic or static test case lists, or it may be informed by Test Case Execution Recipes created by the <a href="test-execution-recipe-creation.html">Test Execution Recipe Creation</a> role.</p>
       </div>
     </section>
     <section>
-      <div class="container bg-shade">
+      <div>
         <h1 class="section-heading">Implementations</h1>
         <p class="section-paragraph">None as of yet.</p>
       </div>
     </section>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Event Authorship</h1>
         <ul style="list-style-type:none">
           <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestSuiteStartedEvent.md">EiffelTestSuiteStartedEvent</a></li>
@@ -38,7 +38,7 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Collaborators</h1>
         <p class="section-paragraph">The Test Orchestration role can be triggered by the <a href="activity-orchestration.html">Activity Orchestration</a> role, and it in turn triggers the <a href="test-case-execution.html">Test Case Execution</a> role. A possible sequence diagram of all the actor roles involved in test execution is shown below.</p>
         <!-- SVG created with Inkscape (http://www.inkscape.org/) -->
