@@ -12,10 +12,10 @@
     <meta name="theme-color" content="#ffffff">
     <script src="./js/csi.min.js"></script>
   </head>
-  <body>
+  <body class="container">
     <div data-include="includes/header.html"></div>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Direct Publishing</h1>
         <p class="section-paragraph">To publish Eiffel event data, actors may interface directly with the <a href="rabbitmq-message-broker.html">RabbitMQ Message Broker</a>. When doing so, the actor takes full responsibility for behaving as a <a href="https://www.rabbitmq.com/clients.html">RabbitMQ Client</a> and for authoring and serializing the JSON document constituting the event. For certain use cases this may be a preferable option, but the authoring and serialization of events can be non-trivial. In particular, the need to reference other events via UUID may require lookups using <a href="event-persistence.html">Event Persistence</a>. It is also worth noting that direct publishing requires library level RabbitMQ integration, whereas <a href="assisted-publishing.html">Assisted Publishing</a> offers REST API integration.</p>
       </div>

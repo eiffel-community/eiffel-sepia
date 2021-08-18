@@ -12,16 +12,16 @@
     <meta name="theme-color" content="#ffffff">
     <script src="./js/csi.min.js"></script>
   </head>
-  <body>
+  <body class="container">
     <div data-include="includes/header.html"></div>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Activity Execution</h1>
         <p class="section-paragraph">The Activity Execution actor role is responsible for executing activities as determined by the <a href="activity-orchestration.html">Activity Orchestration</a> role. While <a href="activity-orchestration.html">Activity Orchestration</a> contains the triggering logic, Activity Execution performs the work of connecting to the correct environment, calling workers and launching scripts. In practice, this role is often played by the same actor as <a href="activity-orchestration.html">Activity Orchestration</a>. Even when this is the case, Sepia maintains the separation of concerns by splitting the two responsibilities into separate roles.</p></p>
       </div>
     </section>
     <section>
-      <div class="container bg-shade">
+      <div>
         <h1 class="section-heading">Implementations</h1>
         <ul style="list-style-type:none">
           <li><a href="https://github.com/jenkinsci/eiffel-broadcaster-plugin">Eiffel Broadcaster Jenkins plugin</a></li>
@@ -29,7 +29,7 @@
       </div>
     </section>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Event Authorship</h1>
         <ul style="list-style-type:none">
           <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityStartedEvent.md">EiffelActivityStartedEvent</a></li>
@@ -38,7 +38,7 @@
       </div>
     </section>
     <section>
-      <div class="container bg-shade">
+      <div>
         <h1 class="section-heading">Collaborators</h1>
         <p class="section-paragraph">The most important collaborator of Activity Execution is <a href="activity-orchestration.html">Activity Orchestration</a>. Indeed, many popular tools combine the two into a single implementation, effectively turning collaboration between the two roles into process internal calls.</p>
         <p class="section-paragraph">Other collaborators include <a href="test-orchestration.html">Test Orchestration</a>, <a href="artifact-creation.html">Artifact Creation</a>, <a href="artifact-publishing.html">Artifact Publishing</a> and <a href="">Composition Definition</a>, which are typically invoked by the Activity Execution role, depending on the nature of the activity.</p>

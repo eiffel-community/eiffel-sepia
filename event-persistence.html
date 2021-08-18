@@ -12,17 +12,17 @@
     <meta name="theme-color" content="#ffffff">
     <script src="./js/csi.min.js"></script>
   </head>
-  <body>
+  <body class="container">
     <div data-include="includes/header.html"></div>
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Event Persistence</h1>
         <p class="section-paragraph">The Event Analysis service enables the <a href="historical-event-lookup.html">Historical Event Lookup</a> mode of access. It stores events (all events received, or a filtered subset) as they are received via the <a href="rabbitmq-message-broker.html">RabbitMQ Message Broker</a>, and exposes them for subsequent retrieval via an API.</p>
         <p class="section-paragraph">While the internal storage and querying mechanisms, data models or underlying DBMS solutions of an Event Analysis service are irrelevant from Sepia's point of view, it is an absolute requirement for it to respect their immutability. In other words, any events retrieved from the Event Persistence service SHALL be exactly as received via the RabbitMQ Message Broker.</p>
       </div>
     </section>
     <section>
-      <div class="container bg-shade">
+      <div>
         <h1 class="section-heading">Implementations</h1>
         <ul style="list-style-type:none">
           <li><a href="https://github.com/eiffel-community/eiffel-event-repository">Eiffel Event Repository</a></li>
