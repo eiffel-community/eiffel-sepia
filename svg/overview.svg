@@ -11,8 +11,6 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1600"
-   height="1660"
    viewBox="0 0 423.33332 439.20835"
    version="1.1"
    id="svg3725"
@@ -741,7 +739,8 @@
        y="490.72437"
        ry="3.214113" />
     <a
-       xlink:href="rabbitmq-message-broker.html"
+       xlink:href="../rabbitmq-message-broker.html"
+       target="_parent"
        id="a5119"
        transform="translate(0,-13.758336)">
       <text
@@ -765,7 +764,8 @@
        y="456.44562"
        ry="3.5443897" />
     <a
-       xlink:href="event-persistence.html"
+       xlink:href="../event-persistence.html"
+       target="_parent"
        id="a5108"
        transform="translate(0,-7.9375004)">
       <text
@@ -794,7 +794,8 @@
        y="412.11487"
        ry="3.5443897" />
     <a
-       xlink:href="event-analysis.html"
+       xlink:href="../event-analysis.html"
+       target="_parent"
        id="a4980">
       <text
          id="text4833-0-8"
@@ -817,7 +818,8 @@
        y="376.98813"
        ry="3.5443897" />
     <a
-       xlink:href="event-presentation.html"
+       xlink:href="../event-presentation.html"
+       target="_parent"
        id="a4984">
       <text
          id="text4833-0-8-3"
@@ -865,7 +867,8 @@
        y="413.81165"
        ry="3.5443897" />
     <a
-       xlink:href="event-publishing.html"
+       xlink:href="../event-publishing.html"
+       target="_parent"
        id="a4976">
       <text
          id="text4833-0-8-1"
@@ -897,7 +900,8 @@
        rx="30.120239"
        ry="19.536907" />
     <a
-       xlink:href="assisted-publishing.html"
+       xlink:href="../assisted-publishing.html"
+       target="_parent"
        id="a4971">
       <text
          id="text4833-0-8-1-8"
@@ -924,7 +928,8 @@
        rx="30.120239"
        ry="19.536907" />
     <a
-       xlink:href="direct-publishing.html"
+       xlink:href="../direct-publishing.html"
+       target="_parent"
        id="a4966">
       <text
          id="text4833-0-8-1-8-3"
@@ -951,7 +956,8 @@
        rx="30.120239"
        ry="19.536907" />
     <a
-       xlink:href="real-time-event-parsing.html"
+       xlink:href="../real-time-event-parsing.html"
+       target="_parent"
        id="a4961">
       <text
          id="text4833-0-8-1-8-3-7"
@@ -978,7 +984,8 @@
        rx="30.120239"
        ry="19.536907" />
     <a
-       xlink:href="aggregated-event-analysis.html"
+       xlink:href="../aggregated-event-analysis.html"
+       target="_parent"
        id="a4956">
       <text
          id="text4833-0-8-1-8-3-7-7"
@@ -1005,7 +1012,8 @@
        rx="30.120239"
        ry="19.536907" />
     <a
-       xlink:href="historical-event-lookup.html"
+       xlink:href="../historical-event-lookup.html"
+       target="_parent"
        id="a4951">
       <text
          id="text4833-0-8-1-8-3-7-7-3"
@@ -1038,7 +1046,8 @@
        y="116.72325"
        ry="6.6307402" />
     <a
-       xlink:href="activity-orchestration.html"
+       xlink:href="../activity-orchestration.html"
+       target="_parent"
        id="a11844">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2"
@@ -1067,7 +1076,8 @@
        ry="1.2994193" />
     <a
        id="a12158"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityTriggeredEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityTriggeredEvent.md"
+       target="_parent">
       <text
          id="text6674-4-4-5"
          y="143.40579"
@@ -1090,7 +1100,8 @@
        ry="1.2994193" />
     <a
        id="a12162"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityCanceledEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityCanceledEvent.md"
+       target="_parent">
       <text
          id="text6674-5-4-8"
          y="152.12148"
@@ -1112,7 +1123,8 @@
        y="116.72325"
        ry="6.6307402" />
     <a
-       xlink:href="activity-execution.html"
+       xlink:href="../activity-execution.html"
+       target="_parent"
        id="a11849">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-4"
@@ -1141,7 +1153,8 @@
        ry="1.2994193" />
     <a
        id="a12208"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityStartedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityStartedEvent.md"
+       target="_parent">
       <text
          id="text6674-4-4-5-20"
          y="143.40579"
@@ -1164,7 +1177,8 @@
        ry="1.2994193" />
     <a
        id="a12212"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityFinishedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityFinishedEvent.md"
+       target="_parent">
       <text
          id="text6674-5-4-8-5"
          y="152.12148"
@@ -1186,7 +1200,8 @@
        y="211.97325"
        ry="6.6307402" />
     <a
-       xlink:href="artifact-creation.html"
+       xlink:href="../artifact-creation.html"
+       target="_parent"
        transform="translate(-201.08322,95.250013)"
        id="a11854">
       <text
@@ -1217,6 +1232,7 @@
     <a
        id="a12326"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactCreatedEvent.md"
+       target="_parent"
        transform="translate(7.3704182e-6,-47.624987)">
       <text
          id="text6674-4-4-5-20-0"
@@ -1241,6 +1257,7 @@
     <a
        id="a12330"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactReusedEvent.md"
+       target="_parent"
        transform="translate(7.3704182e-6,-47.624987)">
       <text
          id="text6674-5-4-8-5-3"
@@ -1263,7 +1280,8 @@
        y="211.97325"
        ry="6.6307402" />
     <a
-       xlink:href="artifact-publishing.html"
+       xlink:href="../artifact-publishing.html"
+       target="_parent"
        transform="translate(-100.54156,95.250013)"
        id="a11859">
       <text
@@ -1294,6 +1312,7 @@
     <a
        id="a12296"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactPublishedEvent.md"
+       target="_parent"
        transform="translate(7.3704182e-6,-47.624987)">
       <text
          id="text6674-4-4-5-20-0-7"
@@ -1316,7 +1335,8 @@
        y="164.34825"
        ry="6.6307402" />
     <a
-       xlink:href="test-orchestration.html"
+       xlink:href="../test-orchestration.html"
+       target="_parent"
        id="a11864">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-0"
@@ -1344,7 +1364,8 @@
        y="164.34825"
        ry="6.6307402" />
     <a
-       xlink:href="test-case-execution.html"
+       xlink:href="../test-case-execution.html"
+       target="_parent"
        id="a11869">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-4-4"
@@ -1373,7 +1394,8 @@
        ry="1.2994193" />
     <a
        id="a12538"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseStartedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseStartedEvent.md"
+       target="_parent">
       <text
          id="text6674-4-4-5-20-7"
          y="191.03079"
@@ -1396,7 +1418,8 @@
        ry="1.2994193" />
     <a
        id="a12542"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md"
+       target="_parent">
       <text
          id="text6674-5-4-8-5-1"
          y="199.74648"
@@ -1418,7 +1441,8 @@
        y="164.34825"
        ry="6.6307402" />
     <a
-       xlink:href="test-execution-recipe-creation.html"
+       xlink:href="../test-execution-recipe-creation.html"
+       target="_parent"
        id="a11874">
       <text
          id="text4833-0-8-1-87-0-4-1-6-1-2-4-1-6"
@@ -1447,7 +1471,8 @@
        ry="1.2994193" />
     <a
        id="a12486"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestExecutionRecipeCollectionCreatedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestExecutionRecipeCollectionCreatedEvent.md"
+       target="_parent">
       <text
          id="text6674-4-4-5-20-0-72"
          y="191.03079"
@@ -1469,7 +1494,8 @@
        y="259.59824"
        ry="6.6307402" />
     <a
-       xlink:href="test-outcome-analysis.html"
+       xlink:href="../test-outcome-analysis.html"
+       target="_parent"
        transform="translate(-100.54153,95.25)"
        id="a11879">
       <text
@@ -1500,6 +1526,7 @@
     <a
        id="a12475"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelIssueVerifiedEvent.md"
+       target="_parent"
        transform="translate(-100.54168,95.25)">
       <text
          id="text6674-4-4-5-20-0-7-5"
@@ -1522,7 +1549,8 @@
        y="259.59824"
        ry="6.6307402" />
     <a
-       xlink:href="confidence-level-arbitration.html"
+       xlink:href="../confidence-level-arbitration.html"
+       target="_parent"
        transform="translate(301.62504,47.624971)"
        id="a11884">
       <text
@@ -1553,6 +1581,7 @@
     <a
        id="a12230"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelConfidenceLevelModifiedEvent.md"
+       target="_parent"
        transform="translate(301.625,47.624982)">
       <text
          id="text6674-4-4-5-4-7"
@@ -1575,7 +1604,8 @@
        y="259.59824"
        ry="6.6307402" />
     <a
-       xlink:href="announcement-publishing.html"
+       xlink:href="../announcement-publishing.html"
+       target="_parent"
        transform="translate(-100.5416,47.625)"
        id="a11889">
       <text
@@ -1606,6 +1636,7 @@
     <a
        id="a12285"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelAnnouncementPublishedEvent.md"
+       target="_parent"
        transform="translate(-100.5416,47.625)">
       <text
          id="text6674-4-4-5-20-7-8"
@@ -1628,7 +1659,8 @@
        y="116.72325"
        ry="6.6307402" />
     <a
-       xlink:href="source-management.html"
+       xlink:href="../source-management.html"
+       target="_parent"
        transform="translate(343.22655,100.3869)"
        id="a11894">
       <text
@@ -1658,7 +1690,8 @@
        ry="1.2994193" />
     <a
        id="a12428"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelSourceChangeCreatedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelSourceChangeCreatedEvent.md"
+       target="_parent">
       <text
          id="text6674-4-4-5-20-0-72-9"
          y="143.40578"
@@ -1681,7 +1714,8 @@
        ry="1.2994193" />
     <a
        id="a12432"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelSourceChangeSubmittedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelSourceChangeSubmittedEvent.md"
+       target="_parent">
       <text
          id="text6674-5-4-8-5-3-3-5"
          y="152.12148"
@@ -1703,7 +1737,8 @@
        y="116.72325"
        ry="6.6307402" />
     <a
-       xlink:href="environment-provisioning.html"
+       xlink:href="../environment-provisioning.html"
+       target="_parent"
        transform="translate(1.4265518e-4,-95.249991)"
        id="a11899">
       <text
@@ -1734,6 +1769,7 @@
     <a
        transform="translate(437.62401,-70.625317)"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelEnvironmentDefinedEvent.md"
+       target="_parent"
        id="a11913">
       <text
          id="text6674-4-4-5-20-0-7-5-7"
@@ -1756,7 +1792,8 @@
        id="rect4829-7-7-8-4-2-4-5-1-5-4-87-4-4-2"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.61316735;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
     <a
-       xlink:href="composition-definition.html"
+       xlink:href="../composition-definition.html"
+       target="_parent"
        id="a11904-4"
        style="display:inline"
        transform="translate(100.5417,-47.625007)">
@@ -1788,6 +1825,7 @@
     <a
        id="a12142"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelCompositionDefinedEvent.md"
+       target="_parent"
        transform="translate(7.3704182e-6,-47.624987)">
       <text
          xml:space="preserve"
@@ -1810,7 +1848,8 @@
        y="259.59824"
        ry="6.6307402" />
     <a
-       xlink:href="flow-context-definition.html"
+       xlink:href="../flow-context-definition.html"
+       target="_parent"
        transform="translate(100.54178,-2.0399852e-5)"
        id="a11904">
       <text
@@ -1841,6 +1880,7 @@
     <a
        id="a12258"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelFlowContextDefinedEvent.md"
+       target="_parent"
        transform="translate(-100.5416,142.87499)">
       <text
          id="text6674-4-4-5-4-7-2"
@@ -1865,6 +1905,7 @@
     <a
        id="a12713"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseTriggeredEvent.md"
+       target="_parent"
        transform="translate(1.548058)">
       <text
          id="text6674-4-4-5-4-8"
@@ -1889,6 +1930,7 @@
     <a
        id="a12717"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseCanceledEvent.md"
+       target="_parent"
        transform="translate(1.6031719)">
       <text
          id="text6674-5-4-8-4-1"
@@ -1912,7 +1954,8 @@
        ry="1.2994193" />
     <a
        id="a12705"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestSuiteStartedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestSuiteStartedEvent.md"
+       target="_parent">
       <text
          id="text6674-4-4-5-4-0"
          y="191.03079"
@@ -1935,7 +1978,8 @@
        ry="1.2994193" />
     <a
        id="a12709"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestSuiteFinishedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestSuiteFinishedEvent.md"
+       target="_parent">
       <text
          id="text6674-5-4-8-4-2"
          y="199.74648"

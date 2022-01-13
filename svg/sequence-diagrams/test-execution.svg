@@ -11,8 +11,6 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1600"
-   height="960"
    viewBox="0 0 423.33332 253.99997"
    version="1.1"
    id="svg3725"
@@ -748,7 +746,8 @@
          id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8-26"
          style="display:inline;opacity:1;fill:url(#linearGradient12172-0);fill-opacity:1;stroke:#000000;stroke-width:0.50711858;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
       <a
-         xlink:href="activity-orchestration.html"
+         xlink:href="../../activity-orchestration.html"
+         target="_parent"
          id="a6588">
         <text
            xml:space="preserve"
@@ -777,7 +776,8 @@
        y="278.49042"
        ry="2.535851" />
     <a
-       xlink:href="test-execution-recipe-creation.html"
+       xlink:href="../../test-execution-recipe-creation.html"
+       target="_parent"
        transform="translate(60.090029,182.5625)"
        id="a6597">
       <text
@@ -806,7 +806,8 @@
        id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8-26-0-7"
        style="display:inline;opacity:1;fill:url(#linearGradient17539);fill-opacity:1;stroke:#000000;stroke-width:0.50711858;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
     <a
-       xlink:href="test-orchestration.html"
+       xlink:href="../../test-orchestration.html"
+       target="_parent"
        transform="translate(61.213466,182.5625)"
        id="a6606">
       <text
@@ -835,7 +836,8 @@
        id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8-26-0-0"
        style="display:inline;opacity:1;fill:url(#linearGradient5044);fill-opacity:1;stroke:#000000;stroke-width:0.50711858;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
     <a
-       xlink:href="environment-provisioning.html"
+       xlink:href="../../environment-provisioning.html"
+       target="_parent"
        transform="translate(62.431256,182.5625)"
        id="a6615">
       <text
@@ -864,11 +866,13 @@
        id="rect4829-7-7-8-4-2-4-5-1-8-1-4-8-26-0-8"
        style="display:inline;opacity:1;fill:url(#linearGradient17547);fill-opacity:1;stroke:#000000;stroke-width:0.50711858;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
     <a
-       xlink:href="test-execution.html"
+       xlink:href="../../test-execution.html"
+       target="_parent"
        transform="translate(62.73794,182.5625)"
        id="a6624">
       <a
-         xlink:href="test-case-execution.html"
+         xlink:href="../../test-case-execution.html"
+         target="_parent"
          id="a17524">
         <text
            xml:space="preserve"
@@ -900,6 +904,7 @@
        style="display:inline"
        id="a12326-2"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactCreatedEvent.md"
+       target="_parent"
        transform="translate(-44.979153,19.949314)">
       <text
          id="text6674-4-4-5-20-0-4"
@@ -950,7 +955,8 @@
          id="a6588-7"
          xlink:href="C:\localdev\github\eiffel-community\eiffel-sepia\svg\sequence-diagrams\activity-orchestration.html">
         <a
-           xlink:href="activity-execution.html"
+           xlink:href="../../activity-execution.html"
+           target="_parent"
            id="a6676">
           <text
              id="text6674-4-4-5-1-2"
@@ -988,6 +994,7 @@
        style="display:inline"
        id="a12158-2"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityTriggeredEvent.md"
+       target="_parent"
        transform="translate(12.68169,175.676)">
       <text
          id="text6674-4-4-5-9"
@@ -1034,6 +1041,7 @@
        style="display:inline"
        id="a12158-2-1"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityStartedEvent.md"
+       target="_parent"
        transform="translate(67.086537,182.45216)">
       <a
          id="a7729">
@@ -1125,6 +1133,7 @@
        style="display:inline"
        id="a12705-1"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestSuiteStartedEvent.md"
+       target="_parent"
        transform="translate(231.73567,181.23467)">
       <text
          id="text6674-4-4-5-4-0-5"
@@ -1236,7 +1245,8 @@
        ry="1.2994193" />
     <a
        id="a17529"
-       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelEnvironmentDefinedEvent.md">
+       xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelEnvironmentDefinedEvent.md"
+       target="_parent">
       <text
          id="text6674-4-4-5-20-0-7-5-7-4"
          y="413.21979"
@@ -1281,6 +1291,7 @@
        style="display:inline"
        id="a12538-9"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseStartedEvent.md"
+       target="_parent"
        transform="translate(238.63324,254.91357)">
       <text
          id="text6674-4-4-5-20-7-9"
@@ -1306,6 +1317,7 @@
        style="display:inline"
        id="a12542-1"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md"
+       target="_parent"
        transform="translate(238.63324,255.7081)">
       <text
          id="text6674-5-4-8-5-1-4"
@@ -1408,6 +1420,7 @@
        style="display:inline;opacity:1;fill:url(#linearGradient12607-5-7-8);fill-opacity:1;stroke:#000000;stroke-width:0.28014475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
     <a
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestSuiteFinishedEvent.md"
+       target="_parent"
        id="a16209"
        transform="translate(196.36729,201.8952)">
       <text
@@ -1470,6 +1483,7 @@
        style="display:inline"
        id="a12212-7"
        xlink:href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelActivityFinishedEvent.md"
+       target="_parent"
        transform="translate(-33.254693,364.8768)">
       <text
          id="text6674-5-4-8-5-8"
