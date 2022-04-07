@@ -26,13 +26,13 @@
         <p class="section-paragraph">Example: Whenever a new version of a release candidate has passed a
           certain set of test cases in a simulated environment, Jane wants to kick off tests in the target
           environment. She could do this by listening first to the
-          <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactCreatedEvent.md">EiffelArtifactCreatedEvents</a>
+          <a href="https://github.com/eiffel-community/eiffel/blob/edition-lyon/eiffel-vocabulary/EiffelArtifactCreatedEvent.md">EiffelArtifactCreatedEvents</a>
           of the release candidates, and then listen to any
-          <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md">EiffelTestCaseFinishedEvents</a>
+          <a href="https://github.com/eiffel-community/eiffel/blob/edition-lyon/eiffel-vocabulary/EiffelTestCaseFinishedEvent.md">EiffelTestCaseFinishedEvents</a>
           referencing
-          <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelTestCaseTriggeredEvent.md">EiffelTestCaseTriggeredEvents</a>
+          <a href="https://github.com/eiffel-community/eiffel/blob/edition-lyon/eiffel-vocabulary/EiffelTestCaseTriggeredEvent.md">EiffelTestCaseTriggeredEvents</a>
             referencing any of those release candidate artifact events. When any one
-          <a href="https://github.com/eiffel-community/eiffel/blob/edition-toulouse/eiffel-vocabulary/EiffelArtifactCreatedEvent.md">EiffelArtifactCreatedEvent</a>
+          <a href="https://github.com/eiffel-community/eiffel/blob/edition-lyon/eiffel-vocabulary/EiffelArtifactCreatedEvent.md">EiffelArtifactCreatedEvent</a>
             has been thus referenced by the correct set of downstream events, that means it's time to
             start the on-target test. This would require non-trivial logic, however, not to mention the
             need for storing the state of every release candidate and its downstream events. A much
