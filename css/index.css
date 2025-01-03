@@ -1,0 +1,52 @@
+@import "chota.min.css";
+
+/* Edit the defaults from chota */
+:root {
+  --color-grey: #A7A7A7;
+  --color-primary: #C00000;
+  --font-family-sans: Roboto,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen",
+  "Ubuntu","Cantarell","Open Sans",sans-serif
+}
+
+a:visited {
+    color: #ff4d4d;
+}
+
+a[href^="http://"],
+a[href^="https://"]
+ {
+    background: url(../images/box-arrow-up-right.svg)     center right no-repeat;
+    padding-right: 13px;
+    background-size: 1rem;
+}
+
+a:hover,a:active {
+  text-decoration:underline;
+  text-decoration-color: #C00000;
+}
+
+.nav a {
+    color: #333;
+}
+
+.nav img {
+    max-height: 4.5rem;
+}
+
+.no-shrink {
+    flex-shrink: 0;
+}
+
+.no-left-padding {
+    padding-left: 0 !important;
+}
+
+.header-nav-link-image {
+  height: 32px;
+  width: auto;
+  vertical-align: middle !important;
+}
+
+.figure {
+    padding-bottom: 50px;
+}

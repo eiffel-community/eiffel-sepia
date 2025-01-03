@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eiffel | Sepia Implementation Architecture | Activity Orchestration</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/index.css'>
+    <meta name="theme-color" content="#ffffff">
+    <script src="./js/csi.min.js"></script>
+  </head>
+  <body class="container">
+    <div data-include="includes/header.html"></div>
+    <section>
+      <div>
+        <h1 class="section-heading">Activity Orchestration</h1>
+        <p class="section-paragraph">The Activity Orchestration actor role is responsible for deciding if and when an activity is to be executed, or whether a previously triggered activity is to be canceled. In most pipeline setups, this responsibility is found in some form of "CI server", but may in its simplest form be realized by something like cron. Furthermore, this role is often played by the same actor as <a href="activity-execution.html">Activity Execution</a>. Even when this is the case, Sepia maintains the separation of concerns by splitting the two responsibilities into separate roles.</p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Implementations</h1>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/jenkinsci/eiffel-broadcaster-plugin">Eiffel Broadcaster Jenkins plugin</a></li>
+          <li><a href="https://github.com/eiffel-community/etos">ETOS</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Event Authorship</h1>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-arica/eiffel-vocabulary/EiffelActivityTriggeredEvent.md">EiffelActivityTriggeredEvent</a></li>
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-arica/eiffel-vocabulary/EiffelActivityCanceledEvent.md">EiffelActivityCanceledEvent</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Collaborators</h1>
+        <p class="section-paragraph">The most important collaborator of Activity Orchestration is <a href="activity-execution.html">Activity Execution</a>. Indeed, many popular tools combine the two into a single implementation, effectively turning collaboration between the two roles into process internal calls.</p>
+      </div>
+    </section>
+    <div data-include="includes/footer.html"></div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eiffel | Sepia Implementation Architecture | Environment Provisioning</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/index.css'>
+    <meta name="theme-color" content="#ffffff">
+    <script src="./js/csi.min.js"></script>
+  </head>
+  <body class="container">
+    <div data-include="includes/header.html"></div>
+    <section>
+      <div>
+        <h1 class="section-heading">Environment Provisioning</h1>
+        <p class="section-paragraph">The Environment Provisioning role is responsible for providing environments to tests and activities as needed. Depending on the nature of the software processed by the pipeline and its environment dependencies, such environments may be either very simple, or very complex. Consequently, the Environment Provisioning role may be very simple, or very complex. Many activity execution tools come with built-in environment provisioning through e.g. build slave management, whereas other scenarios require dedicated services.</p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Implementations</h1>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/eiffel-community/etos">ETOS</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Event Authorship</h1>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-arica/eiffel-vocabulary/EiffelEnvironmentDefinedEvent.md">EiffelEnvironmentDefinedEvent</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Collaborators</h1>
+        <p class="section-paragraph">The primary collaborators of this role are the <a href="activity-execution.html">Activity Execution</a> and <a href="test-case-execution.html">Test Case Execution</a> roles, who use it to retrieve the environments in which to execute.</p>
+      </div>
+    </section>
+    <div data-include="includes/footer.html"></div>
+  </body>
+</html>

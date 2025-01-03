@@ -15,7 +15,7 @@
    limitations under the License.
 --->
 
-<img src="./images/logo.png" alt="Sepia Eiffel Protocol Implementation Architecture" width="350"/>
+<img src="./images/header-logo.png" alt="Sepia Eiffel Protocol Implementation Architecture" width="350"/>
 
 [![Graduated](https://img.shields.io/badge/Stage-Graduated-green)](https://github.com/eiffel-community/community/blob/master/PROJECT_LIFECYCLE.md#stage-graduated)
 

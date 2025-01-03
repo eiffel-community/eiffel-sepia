@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eiffel | Sepia Implementation Architecture | Event Presentation</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/index.css'>
+    <meta name="theme-color" content="#ffffff">
+    <script src="./js/csi.min.js"></script>
+  </head>
+  <body class="container">
+    <div data-include="includes/header.html"></div>
+    <section>
+      <div>
+        <h1 class="section-heading">Event Presentation</h1>
+        <p class="section-paragraph">The Event Presentation service presents event data, or data derived from events, in some format intended for human consumption. Often this involves some form of visualization of the data, although this is not necessarily the case. These presentations may be real time status displays (e.g. intended for information radiators), static on-demand displays or anything in between. Similarly, depending on the type of presentation, they may consume events from the <a href="rabbitmq-message-broker.html">RabbitMQ Message Broker</a> in real time, fetch historical events from an <a href="event-persistence.html">Event Persistence service</a>, fetch data agrregations from an <a href="event-analysis.html">Event Analysis service</a>, or any combination of the three.</p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Implementations</h1>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/eiffel-community/eiffel-vici">Eiffel ViCi</a></li>
+        </ul>
+      </div>
+    </section>
+    <div data-include="includes/footer.html"></div>
+  </body>
+</html>

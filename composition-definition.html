@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eiffel | Sepia Implementation Architecture | Composition Definition</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/index.css'>
+    <meta name="theme-color" content="#ffffff">
+    <script src="./js/csi.min.js"></script>
+  </head>
+  <body class="container">
+    <div data-include="includes/header.html"></div>
+    <section>
+      <div>
+        <h1 class="section-heading">Composition Definition</h1>
+        <p class="section-paragraph">The Composition Definition role is responsible for defining compositions of elements for some purpose, typically to be built into artifacts. In practice, it is often combined with the <a href="artifact-creation.html">Artifact Creation</a> role, although Sepia regards it as a separate concern. Moreover, it is frequently not addressed by any dedicated service implementation, but through the configuration of activities in <a href="activity-execution.html">Activity Execution</a> (i.e. as part of the activity script) or as part of the source code in a build file or dependency declaration.</p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Implementations</h1>
+        <p class="section-paragraph">None as of yet.</p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Event Authorship</h1>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-arica/eiffel-vocabulary/EiffelCompositionDefinedEvent.md">EiffelCompositionDefinedEvent</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Collaborators</h1>
+        <p class="section-paragraph">The Composition Definition role is usually invoked by the <a href="artifact-creation.html">Artifact Creation</a> role, which needs its resulting composition as input. This can either be done directly, or via the <a href="activity-execution.html">Activity Execution</a> role.</p>
+      </div>
+    </section>
+    <div data-include="includes/footer.html"></div>
+  </body>
+</html>

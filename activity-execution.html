@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eiffel | Sepia Implementation Architecture | Activity Execution</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/index.css'>
+    <meta name="theme-color" content="#ffffff">
+    <script src="./js/csi.min.js"></script>
+  </head>
+  <body class="container">
+    <div data-include="includes/header.html"></div>
+    <section>
+      <div>
+        <h1 class="section-heading">Activity Execution</h1>
+        <p class="section-paragraph">The Activity Execution actor role is responsible for executing activities as determined by the <a href="activity-orchestration.html">Activity Orchestration</a> role. While <a href="activity-orchestration.html">Activity Orchestration</a> contains the triggering logic, Activity Execution performs the work of connecting to the correct environment, calling workers and launching scripts. In practice, this role is often played by the same actor as <a href="activity-orchestration.html">Activity Orchestration</a>. Even when this is the case, Sepia maintains the separation of concerns by splitting the two responsibilities into separate roles.</p></p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Implementations</h1>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/jenkinsci/eiffel-broadcaster-plugin">Eiffel Broadcaster Jenkins plugin</a></li>
+          <li><a href="https://github.com/eiffel-community/etos">ETOS</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Event Authorship</h1>
+        <ul style="list-style-type:none">
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-arica/eiffel-vocabulary/EiffelActivityStartedEvent.md">EiffelActivityStartedEvent</a></li>
+          <li><a href="https://github.com/eiffel-community/eiffel/blob/edition-arica/eiffel-vocabulary/EiffelActivityFinishedEvent.md">EiffelActivityFinishedEvent</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Collaborators</h1>
+        <p class="section-paragraph">The most important collaborator of Activity Execution is <a href="activity-orchestration.html">Activity Orchestration</a>. Indeed, many popular tools combine the two into a single implementation, effectively turning collaboration between the two roles into process internal calls.</p>
+        <p class="section-paragraph">Other collaborators include <a href="test-orchestration.html">Test Orchestration</a>, <a href="artifact-creation.html">Artifact Creation</a>, <a href="artifact-publishing.html">Artifact Publishing</a> and <a href="">Composition Definition</a>, which are typically invoked by the Activity Execution role, depending on the nature of the activity.</p>
+        <p class="section-paragraph">To retrieve an environment in which to execute the activity, the Activity Executor may utilize the <a href="environment-provisioning.html">Environment Provisioning</a> role.</p>
+      </div>
+    </section>
+    <div data-include="includes/footer.html"></div>
+  </body>
+</html>

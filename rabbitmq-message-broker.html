@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eiffel | Sepia Implementation Architecture | Rabbit MQ Message Broker</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel='stylesheet' href='./css/index.css'>
+    <meta name="theme-color" content="#ffffff">
+    <script src="./js/csi.min.js"></script>
+  </head>
+  <body class="container">
+    <div data-include="includes/header.html"></div>
+    <section>
+      <div>
+        <h1 class="section-heading">RabbitMQ Message Broker</h1>
+        <p class="section-paragraph">The RabbitMQ Message Broker is the heart of the Sepia architecture. It routes all event messages from authors to recipients. The RabbitMQ Message Broker is implemented by <a href="https://www.rabbitmq.com/">RabbitMQ</a>. RabbitMQ is a widely deployed open source message broker and completely independent from the Eiffel community. In other words, there is no Eiffel specific message broker implementation. Instead, Sepia lists a small number of requirements on RabbitMQ servers and clients.</p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Server Requirements</h1>
+        <p class="section-paragraph">The RabbitMQ Message Broker SHALL use RabbitMQ <a href="https://www.rabbitmq.com/changelog.html">version 3.0.0 or later</a>.</p>
+        <p class="section-paragraph">Note that Sepia places no requirements on deployment architecture (e.g. distributed or not), authentication enforcement or exchange configuration. These aspects of the message broker are up to the demands in each specific case.</p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1 class="section-heading">Client Requirements</h1>
+        <ul>
+          <li>Client implementations MAY use any <a href="https://www.rabbitmq.com/clients.html">RabbitMQ Client API</a> compatible with the identified RabbitMQ server version (see Server Requirements).</li>
+          <li>Client implementations SHALL support <a href="https://www.rabbitmq.com/authentication.html">RabbitMQ PLAIN authentication</a>.</li>
+          <li>Client implementations MAY support <a href="https://www.rabbitmq.com/authentication.html">other types of authentication in addition to PLAIN</a>.</li>
+          <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to server deployment or configuration.</li>
+          <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to exchange topology, types or configurations.</li>
+          <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to routing scheme.</li>
+          <li>Unless stated otherwise in their documentation, client implementations SHALL NOT make any assumptions with regards to queue configurations.</li>
+          <li>Any <a href="event-publishing.html">Event Publishing</a> service or pipeline actor implementation accessing the message broker via <a href="direct-publishing.html">Direct Publishing</a> SHALL act as a RabbitMQ producer publishing to a RabbitMQ exchange.</li>
+          <ul>
+            <li>It SHALL ensure that published event types defined in edition-arica of the <a href="https://github.com/eiffel-community/eiffel">Eiffel protocol</a> comply with protocol definitions.</li>
+            <li>It MAY publish messages on Eiffel-like syntax, containing event types not defined in the <a href="https://github.com/eiffel-community/eiffel">Eiffel protocol</a>, as well as other other types of messages completely unrelated to the Eiffel protocol.</li>
+            <li>It SHALL support routing keys.</li>
+            <li>
+              It SHOULD use a routing key on the form <code>eiffel.&lt;family&gt;.&lt;type&gt;.&lt;tag&gt;.&lt;domainid&gt;</code>, where:
+              <ul>
+                <li><code>family</code> is the non-empty name of a group of Eiffel events to which the current event belongs. The families have not been defined in Sepia but may be in the future. Implementations may choose to use a fixed string in this field.</li>
+                <li><code>type</code> is the type of the published Eiffel event (i.e. its <code>meta.type</code> member), e.g. EiffelArtifactCreatedEvent.</li>
+                <li><code>tag</code> is an implementation-specific tag. It can be any non-empty string but must not contain a period.</li>
+                <li><code>domainid</code> is the non-empty string representing the domain the event applies to. It corresponds to the <code>meta.source.domainId</code> member of an Eiffel event.</li>
+              </ul>
+            </li>
+            <li>It SHALL support named exchanges.</li>
+            <li>Unless stated otherwise in its documentation, it SHALL NOT make any assumptions as to the presence, absence or nature of other producers connected to the same exchange.</li>
+          </ul>
+          <li>Any <a href="event-persistence.html">Event Persistence</a> service, <a href="event-analysis.html">Event Analysis</a> service, <a href="event-presentation.html">Event Presentation</a> service or pipeline actor implementation accessing the message broker via <a href="real-time-event-parsing.html">Real Time Event Parsing</a> SHALL act as a RabbitMQ consumer consuming from a RabbitMQ queue.</li>
+          <ul>
+            <li>Unless otherwise stated in its documentation, it SHALL NOT make any assumptions as to the presence, absence or nature of other consumers connected to the same queue.</li>
+          </ul>
+        </ul>
+        <p>Tutorials for creating RabbitMQ clients are available for <a href="https://www.rabbitmq.com/getstarted.html">multiple languages</a>. These tutorials are highly recommended, as they explain concepts such as routing, exchanges, producers, consumers and queues.
+      </div>
+    </section>
+    <div data-include="includes/footer.html"></div>
+  </body>
+</html>
